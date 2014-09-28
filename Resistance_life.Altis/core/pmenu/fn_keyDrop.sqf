@@ -17,7 +17,7 @@ _vehicle = life_vehicles select _index;
 if(_vehicle isKindOf "House_F") exitWith {hint "Vous ne pouvez pas supprimer les clés de votre maison!"};
 _owners = _vehicle getVariable "vehicle_info_owners";
 
-_index2 = [(getPlayerUID player),_owners] call fnc_index;
+_index2 = [(getPlayerUID player),_owners] call TON_fnc_index;
 life_vehicles = life_vehicles - [_vehicle];
 _owners set[_index,-1];
 _owners = _owners - [-1];

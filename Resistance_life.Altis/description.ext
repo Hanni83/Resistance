@@ -1,6 +1,6 @@
 author = "Tonic";
-onLoadName = "Resistance v3.1.4.5";
-onLoadMission = "A RPG game mode developed by Tonic and edited by Resistance Team";
+onLoadName = "Resistance v3.1.4.8";
+onLoadMission = "Un mode de jeu RPG développé par Tonic et édité par l'équipe Résistance";
 joinUnassigned = 1;
 respawn = BASE;
 respawndelay = 5;

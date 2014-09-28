@@ -10,11 +10,11 @@ _filter = [_this,0,0,[0]] call BIS_fnc_param;
 //Classname, Custom Display name (use nil for Cfg->DisplayName, price
 
 //Shop Title Name
-ctrlSetText[3103,"Magasin Vêtement Rebelle"];
+ctrlSetText[3103,"Magasin Vetement Rebelle"];
 
 switch (_filter) do
 {
-	//Uniforms
+	//Uniformes
 	case 0:
 	{
 		[
@@ -46,7 +46,7 @@ switch (_filter) do
 		];
 	};
 	
-	//Hats
+	//Casques / Chapeaux
 	case 1:
 	{
 		[
@@ -71,20 +71,20 @@ switch (_filter) do
 		];
 	};
 	
-	//Glasses
+	//Lunettes / Barbes
 	case 2:
 	{
 		[
-			["G_Balaclava_blk",nil,25],
-			["G_Balaclava_lowprofile",nil,20],
-			["G_Balaclava_combat",nil,20],
-			["G_Balaclava_oli",nil,20],
-			["G_Bandanna_aviator",nil,20],
-			["G_Bandanna_tan",nil,20],
-			["G_Squares",nil,10],
-			["G_Bandanna_blk",nil,30],
-			["G_Bandanna_oli",nil,55],
-			["G_Bandanna_shades",nil,55],
+			["G_Balaclava_blk",nil,250],
+			["G_Balaclava_lowprofile",nil,200],
+			["G_Balaclava_combat",nil,200],
+			["G_Balaclava_oli",nil,200],
+			["G_Bandanna_aviator",nil,200],
+			["G_Bandanna_tan",nil,200],
+			["G_Squares",nil,100],
+			["G_Bandanna_blk",nil,300],
+			["G_Bandanna_oli",nil,550],
+			["G_Bandanna_shades",nil,550],
 			["Mask_M40",nil,550],
 			["Mask_M40_OD",nil,550],
 			["jakdo_balaclava_BLK",nil,550],
@@ -98,7 +98,7 @@ switch (_filter) do
 		];
 	};
 	
-	//Vest
+	//Vestes
 	case 3:
 	{
 		[
@@ -116,7 +116,7 @@ switch (_filter) do
 		];
 	};
 	
-	//Backpacks
+	//Sacs
 	case 4:
 	{
 		[
@@ -130,7 +130,8 @@ switch (_filter) do
 			["B_Carryall_oli",nil,5000],
 			["B_Carryall_khk",nil,5000],
 			["JaKdo_ruck_winter",nil,8000],
-			["B_TacticalPack_blk",nil,12500]
+			["B_TacticalPack_blk",nil,12500],
+			["B_mas_Kitbag_black",nil,15000]
 		];
 	};
 };

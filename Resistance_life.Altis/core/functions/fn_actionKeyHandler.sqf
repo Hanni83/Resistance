@@ -19,6 +19,11 @@ if(isNull _curTarget) exitWith {
 		if(!isNil "_fish") then {
 			[_fish] call life_fnc_catchFish;
 		};
+		} else {
+			if(playerSide == civilian) then {
+			_handle = [] spawn life_fnc_gather;
+			waitUntil {scriptDone _handle};
+		};
 	};
 };
 

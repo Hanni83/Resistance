@@ -20,7 +20,7 @@ if(_unit == player) exitWith {ctrlShow[2002,true];};
 if(isNull _unit) exitWith {ctrlShow[2002,true];};
 
 //A series of checks *ugh*
-if(!([_val] call fnc_isnumber)) exitWith {hint "Vous n'avez pas saisi un format de nombre réel.";ctrlShow[2002,true];};
+if(!([_val] call TON_fnc_isnumber)) exitWith {hint "Vous n'avez pas saisi un format de nombre réel.";ctrlShow[2002,true];};
 if(parseNumber(_val) <= 0) exitWith {hint "Vous devez entrer un montant réel que vous voulez donner.";ctrlShow[2002,true];};
 if(isNil "_unit") exitWith {ctrlShow[2001,true]; hint "Le joueur sélectionné est hors de portée";};
 if(!([false,_item,(parseNumber _val)] call life_fnc_handleInv)) exitWith {hint "Impossible de donner autant d'argent, êtes-vous sur d'avoir ce montant sur vous ?";ctrlShow[2002,true];};

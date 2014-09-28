@@ -43,7 +43,7 @@ class Life_Vehicle_Shop_v2
 			idc = -1;
 			text = "$STR_GUI_ShopStock";
 			colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", "(profilenamespace getvariable ['GUI_BCG_RGB_A',0.7])"};
-			x = 0.11; y = 0.26;
+			x = 0.11; y = 0.30;
 			w = 0.3;
 			h = (1 / 25);
 		};
@@ -53,7 +53,7 @@ class Life_Vehicle_Shop_v2
 			idc = 2330;
 			text = "$STR_GUI_VehInfo";
 			colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", "(profilenamespace getvariable ['GUI_BCG_RGB_A',0.7])"};
-			x = 0.42; y = 0.26;
+			x = 0.42; y = 0.30;
 			w = 0.46;
 			h = (1 / 25);
 		};

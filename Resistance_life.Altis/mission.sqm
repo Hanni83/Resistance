@@ -217,7 +217,7 @@ class Mission
 	class Intel
 	{
 		briefingName="Altis Life RPG";
-		overviewText="Resistance V.3.1.4.5";
+		overviewText="Resistance V.3.1.4.8";
 		startWeather=0.099999994;
 		startWind=0.29999998;
 		startWindDir=20;

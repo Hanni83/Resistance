@@ -17,14 +17,14 @@ if(isNull _unit) exitWith {ctrlShow[2001,true];};
 
 //A series of checks *ugh*
 if(!life_use_atm) exitWith {hint "Vous avez récemment volé la banque! Vous ne pouvez pas donner de l'argent tout de suite.";ctrlShow[2001,true];};
-if(!([_amount] call fnc_isnumber)) exitWith {hint "You didn't enter an actual number format.";ctrlShow[2001,true];};
+if(!([_amount] call TON_fnc_isnumber)) exitWith {hint "You didn't enter an actual number format.";ctrlShow[2001,true];};
 if(parseNumber(_amount) <= 0) exitWith {hint "Vous devez entrer un montant réel que vous voulez donner.";ctrlShow[2001,true];};
 if(parseNumber(_amount) > life_cash) exitWith {hint "Vous n'avez pas grand-chose à donner!";ctrlShow[2001,true];};
 if(isNull _unit) exitWith {ctrlShow[2001,true];};
 if(isNil "_unit") exitWith {ctrlShow[2001,true]; hint "Le joueur sélectionné est hors de portée";};
 hint format["Vous avez donné %1$ à %2",[(parseNumber(_amount))] call life_fnc_numberText,_unit getVariable["realname",name _unit]];
 life_cash = life_cash - (parseNumber(_amount));
-[] call SOCK_fnc_updateRequest;
+[0] call SOCK_fnc_updatePartial;
 [[_unit,_amount,player],"life_fnc_receiveMoney",_unit,false] spawn life_fnc_MP;
 [] call life_fnc_p_updateMenu;
 

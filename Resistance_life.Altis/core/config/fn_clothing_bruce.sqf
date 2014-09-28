@@ -14,39 +14,39 @@ ctrlSetText[3103,"H&M"];
 
 switch (_filter) do
 {
-	//Uniforms
+	//Uniformes
 	case 0:
 	{
 		[
-		["U_C_Poloshirt_blue","Poloshirt Blue",250],
-		["U_C_Poloshirt_burgundy","Poloshirt Burgundy",275],
-		["U_C_Poloshirt_redwhite","Poloshirt Red/White",150],
-		["U_C_Poloshirt_salmon","Poloshirt Salmon",175],
-		["U_C_Poloshirt_stripped","Poloshirt stripped",125],
-		["U_C_Poloshirt_tricolour","Poloshirt Tricolor",350],
-		["U_C_Poor_2","Rag tagged clothes",250],
-		["U_IG_Guerilla2_2","Green stripped shirt & Pants",650],
-		["U_IG_Guerilla3_1","Brown Jacket & Pants",735],
-		["U_IG_Guerilla2_3","The Outback Rangler",1200],
-		["U_C_HunterBody_grn","The Hunters Look",1500],
-		["U_C_WorkerCoveralls","Mechanic Coveralls",2500],
-		["U_OrestesBody","Surfing On Land",1100],
-		["U_NikosAgedBody","Casual Wears",5000],
-		["EMU_Standard_Soldier7",nil,5100],
-		["EMU_Standard_Soldier31",nil,5500],
-		["EMU_Standard_Soldier9",nil,5050],
-		["EMU_Standard_Soldier5",nil,5000],
-		["EMU_Standard_Soldier2",nil,5230],
-		["EMU_Standard_Soldier4",nil,5000],
-		["EMU_Standard_Soldier22",nil,5100],
-		["EMU_Standard_Soldier21",nil,5000],
-		["EMU_Standard_Soldier20",nil,5400],
-		["EMU_Standard_Soldier10",nil,5000],
-		["EMU_Standard_Soldier",nil,5200]
+			["U_C_Poloshirt_blue","Poloshirt Blue",250],
+			["U_C_Poloshirt_burgundy","Poloshirt Burgundy",275],
+			["U_C_Poloshirt_redwhite","Poloshirt Red/White",150],
+			["U_C_Poloshirt_salmon","Poloshirt Salmon",175],
+			["U_C_Poloshirt_stripped","Poloshirt stripped",125],
+			["U_C_Poloshirt_tricolour","Poloshirt Tricolor",350],
+			["U_C_Poor_2","Rag tagged clothes",250],
+			["U_IG_Guerilla2_2","Green stripped shirt & Pants",650],
+			["U_IG_Guerilla3_1","Brown Jacket & Pants",735],
+			["U_IG_Guerilla2_3","The Outback Rangler",1200],
+			["U_C_HunterBody_grn","The Hunters Look",1500],
+			["U_C_WorkerCoveralls","Mechanic Coveralls",2500],
+			["U_OrestesBody","Surfing On Land",1100],
+			["U_NikosAgedBody","Casual Wears",5000],
+			["EMU_Standard_Soldier7",nil,5100],
+			["EMU_Standard_Soldier31",nil,5500],
+			["EMU_Standard_Soldier9",nil,5050],
+			["EMU_Standard_Soldier5",nil,5000],
+			["EMU_Standard_Soldier2",nil,5230],
+			["EMU_Standard_Soldier4",nil,5000],
+			["EMU_Standard_Soldier22",nil,5100],
+			["EMU_Standard_Soldier21",nil,5000],
+			["EMU_Standard_Soldier20",nil,5400],
+			["EMU_Standard_Soldier10",nil,5000],
+			["EMU_Standard_Soldier",nil,5200]
 		];
 	};
 	
-	//Hats
+	//Casques / Chapeaux
 	case 1:
 	{
 		[
@@ -75,17 +75,17 @@ switch (_filter) do
 		];
 	};
 	
-	//Glasses
+	//Lunettes / Barbes
 	case 2:
 	{
 		[
-			["G_Shades_Black",nil,25],
-			["G_Shades_Blue",nil,20],
-			["G_Sport_Blackred",nil,20],
-			["G_Sport_Checkered",nil,20],
-			["G_Sport_Blackyellow",nil,20],
-			["G_Sport_BlackWhite",nil,20],
-			["G_Squares",nil,10],
+			["G_Shades_Black",nil,250],
+			["G_Shades_Blue",nil,200],
+			["G_Sport_Blackred",nil,200],
+			["G_Sport_Checkered",nil,200],
+			["G_Sport_Blackyellow",nil,200],
+			["G_Sport_BlackWhite",nil,200],
+			["G_Squares",nil,100],
 			["G_Aviator",nil,100],
 			["G_Lady_Mirror",nil,150],
 			["G_Lady_Dark",nil,155],
@@ -98,7 +98,7 @@ switch (_filter) do
 		];
 	};
 	
-	//Vest
+	//Vestes
 	case 3:
 	{
 		[
@@ -107,7 +107,7 @@ switch (_filter) do
 		];
 	};
 	
-	//Backpacks
+	//Sacs
 	case 4:
 	{
 		[

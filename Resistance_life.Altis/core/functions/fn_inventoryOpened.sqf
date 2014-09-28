@@ -39,9 +39,10 @@ if(_container isKindOf "LandVehicle" OR _container isKindOf "Ship" OR _container
 	};
 };
 
-if(_container isKindOf "Man") exitWith {
-	hint "STOP ME TOUCHE PAS !";
-	[] spawn {
+//Allow alive players who've been knocked out to be looted, just not the dead ones
+if(_container isKindOf "Man" && !alive _container) exitWith {
+		hint localize "STR_NOTF_NoLootingPerson";
+		[] spawn {
 		waitUntil {!isNull (findDisplay 602)};
 		closeDialog 0;
 	};

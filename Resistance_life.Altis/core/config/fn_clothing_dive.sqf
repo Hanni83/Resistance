@@ -14,7 +14,7 @@ ctrlSetText[3103,"Steve's Diving Shop"];
 
 switch (_filter) do
 {
-	//Uniforms
+	//Uniformes
 	case 0:
 	{
 		[
@@ -22,14 +22,14 @@ switch (_filter) do
 		];
 	};
 	
-	//Hats
+	//Casques / Chapeaux
 	case 1:
 	{
 		[
 		];
 	};
 	
-	//Glasses
+	//Lunettes / Barbes
 	case 2:
 	{
 		[
@@ -37,7 +37,7 @@ switch (_filter) do
 		];
 	};
 	
-	//Vest
+	//Vestes
 	case 3:
 	{
 		[
@@ -45,7 +45,7 @@ switch (_filter) do
 		];
 	};
 	
-	//Backpacks
+	//Sacs
 	case 4:
 	{
 		[

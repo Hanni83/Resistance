@@ -20,6 +20,8 @@ publicVariable "BipBipOn";
 
 StartProgress = true;
 
+"BIS_fnc_MP_packet" addPublicVariableEventHandler {_this call life_fnc_MPexec};
+
 MAC_fnc_switchMove = {
 private["_object","_anim"];
 _object = _this select 0;

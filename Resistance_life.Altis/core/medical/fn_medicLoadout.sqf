@@ -5,12 +5,10 @@
 	Description:
 	Loads the medic out with the default gear.
 */
-removeAllContainers player;
-removeAllWeapons player;
+private["_handle"];
+_handle = [] spawn life_fnc_stripDownPlayer;
+waitUntil {scriptDone _handle};
 player forceAddUniform "U_I_HeliPilotCoveralls";
-player addItem "FirstAidKit";
-player addItem "FirstAidKit";
-player addItem "FirstAidKit";
 player addItem "ItemWatch";
 player assignItem "ItemWatch";
 player addItem "ItemCompass";
@@ -21,10 +19,7 @@ player addItem "ItemMap";
 player assignItem "ItemMap";
 player addItem "ItemRadio";
 player assignItem "ItemRadio";
-removeGoggles player;
-removeHeadGear player;
-if(hmd player != "") then {
-	player unlinkItem (hmd player);
-};
 
 [[player,0,"\Resistance\Skins\cloth_med\medic_uniform.jpg"],"life_fnc_setTexture",true,false] spawn life_fnc_MP;
+
+[] call life_fnc_saveGear;

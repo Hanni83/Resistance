@@ -6,6 +6,7 @@
 */
 private["_exitLoop","_group","_wait"];
 if(playerSide != civilian) exitWith {}; //What in the hell?
+[player] join (createGroup civilian);
 if(count life_gangData == 0) exitWith {}; //Dafuq?
 
 _wait = round(random(8));
@@ -27,7 +28,7 @@ if(!isNil "_group") then {
 	[player] join _group;
 	if((life_gangData select 1) == (getPlayerUID player)) then {
 		_group selectLeader player;
-		[[player,_group],"clientGangLeader",(units _group),false] spawn life_fnc_MP;
+		[[player,_group],"TON_fnc_clientGangLeader",(units _group),false] spawn life_fnc_MP;
 	};
 } else {
 	_group = group player;

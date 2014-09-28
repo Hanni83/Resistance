@@ -319,7 +319,7 @@ buy_array =
 	["mullet",300],
 	["catshark",350],
 	["water",10],
-	["turtle",14000],
+	["turtle",24000],
 	["turtlesoup",2500],
 	["donuts",120],
 	["coffee",10],
@@ -513,7 +513,13 @@ life_garage_prices =
 	["UNARMED_CH_47F",120000],
 	["IVORY_CRJ200_1",120000],
 	["O_Heli_Attack_02_black_F",250000],
-	["globemaster_c17_705",150000]
+	["globemaster_c17_705",150000],
+	["cl3_q7_clpd_cn",7500],
+	["cl3_q7_black",7500],
+	["cl3_transit_black",10000],
+	["cl3_transit_camo",10000],
+	["cl3_q7_clpd_etu",7500],
+	["cl3_q7_clpd_patrol",7500]
 ];
 __CONST__(life_garage_prices,life_garage_prices);
 
@@ -643,6 +649,12 @@ life_garage_sell =
 	["UNARMED_CH_47F",1200000],
 	["IVORY_CRJ200_1",1200000],
 	["O_Heli_Attack_02_black_F",750000],
-	["globemaster_c17_705",750000]
+	["globemaster_c17_705",750000],
+	["cl3_q7_clpd_cn",7500],
+	["cl3_q7_black",75000],
+	["cl3_transit_black",55000],
+	["cl3_transit_camo",55000],
+	["cl3_q7_clpd_etu",15000],
+	["cl3_q7_clpd_patrol",25000]
 ];
 __CONST__(life_garage_sell,life_garage_sell);

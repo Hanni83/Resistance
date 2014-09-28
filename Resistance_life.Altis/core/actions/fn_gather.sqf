@@ -5,18 +5,19 @@
 	Description:
 	Main functionality for gathering.
 */
-closeDialog 0;
 private["_gather","_itemWeight","_diff","_itemName","_val","_resourceZones","_zone","_dice"];
 _resourceZones = ["figue_1","figue_2","figue_3","figue_4","bois_1","bois_2","bois_3","bois_4","heroin_1","cocaine_1","weed_1","olive_1","olive_2","raisin_1","raisin_2","tabac_1","houblon_1","orge_1","peyotl_1","peyotl_2","sassafras_1"];
 _zone = "";
 _dice=ceil(random 4);
+
+//if(life_action_inUse) exitWith {}; //Action is in use, exit to prevent spamming.
+
 //Find out what zone we're near
 {
 	if(player distance (getMarkerPos _x) < 50) exitWith {_zone = _x;};
 } foreach _resourceZones;
 
 if(_zone == "") exitWith {
-	hint localize "STR_NOTF_notNearResource";
 	life_action_gather = false;
 	//life_action_inUse = false;
 };
@@ -38,7 +39,7 @@ switch(true) do {
 	default {""};
 };
 //gather check??
-if(vehicle player != player) exitWith {hint localize "STR_NOTF_GatherVeh";};
+if(vehicle player != player) exitWith {};
 
 _diff = [_gather,_dice,life_carryWeight,life_maxWeight] call life_fnc_calWeightDiff;
 if(_diff == 0) exitWith {hint localize "STR_NOTF_InvFull"};

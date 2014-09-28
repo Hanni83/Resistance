@@ -14,7 +14,7 @@ ctrlSetText[3103,"Bobby's Kart-Racing Outfits"];
 
 switch (_filter) do
 {
-	//Uniforms
+	//Uniformes
 	case 0:
 	{
 		[
@@ -32,7 +32,7 @@ switch (_filter) do
 		];
 	};
 	
-	//Hats
+	//Casques / Chapeaux
 	case 1:
 	{
 		[
@@ -49,21 +49,21 @@ switch (_filter) do
 		];
 	};
 	
-	//Glasses
+	//Lunettes / Barbes
 	case 2:
 	{
 		[
 		];
 	};
 	
-	//Vest
+	//Vestes
 	case 3:
 	{
 		[
 		];
 	};
 	
-	//Backpacks
+	//Sacs
 	case 4:
 	{
 		[

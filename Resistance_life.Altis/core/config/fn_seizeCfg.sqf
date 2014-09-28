@@ -25,7 +25,7 @@ switch(_mode) do
 {
 	case 1: {
 		[
-			// Weapons
+			// Armes a saisir
 			"srifle_EBR_F",
 			"srifle_GM6_F",
 			"srifle_LRR_F",
@@ -72,7 +72,6 @@ switch(_mode) do
 			"SMG_02_F",
 			"srifle_DMR_01_F",
 			"DDOPP_X26",
-			"DDOPP_1Rnd_X26",
 			"hgun_mas_m9_F",
 			"arifle_mas_mp5",
 			"hgun_mas_acp_F",
@@ -88,21 +87,16 @@ switch(_mode) do
 			"arifle_mas_fal_m203",
 			"LMG_mas_M249_F",
 			"launch_NLAW_F",
-			"NLAW_F",
 			"launch_RPG32_F",
-			"RPG32_F",
 			"hgun_mas_glock_F",
 			"hgun_mas_glocksf_F",
 			"mas_launch_RPG7_F",
-			"mas_PG7V",
 			"arifle_mas_ak_74m_sf",
 			"arifle_mas_akm",
 			"arifle_mas_bizon",
-			"64Rnd_mas_9x18_mag",
 			"srifle_GM6_camo_F",
 			"LMG_mas_pkm_F",
 			"srifle_mas_svd",
-			"DemoCharge_Remote_Mag",
 			"hgun_mas_mak_F",
 			"arifle_SDAR_F",
 			"hgun_ACPC2_F",
@@ -113,10 +107,13 @@ switch(_mode) do
 			"hgun_mas_sa61_F",
 			"hgun_PDW2000_F",
 			
-			
-			
-			
 			// Mags
+			"mas_PG7V",
+			"RPG32_F",
+			"NLAW_F",
+			"64Rnd_mas_9x18_mag",
+			"DemoCharge_Remote_Mag",
+			"DDOPP_1Rnd_X26",
 			"30Rnd_556x45_Stanag",
 			"20Rnd_556x45_UW_mag",
 			"30Rnd_65x39_caseless_mag",
@@ -154,13 +151,84 @@ switch(_mode) do
 			"10Rnd_762x51_Mag",
 			"5Rnd_127x108_APDS_Mag",
 			"6Rnd_GreenSignal_F",
-			"6Rnd_RedSignal_F"
+			"6Rnd_RedSignal_F",
 			
-			//Uniforme
+			//Uniformes
+			"U_I_GhillieSuit",
+			"U_O_GhillieSuit",
+			"U_B_GhillieSuit",
+			"U_BG_Guerrilla_6_1",
+			"U_I_CombatUniform_shortsleeve",
+			"U_I_CombatUniform",
+			"U_I_OfficerUniform",
+			"U_BG_leader",
+			"U_BG_Guerilla1_1",
+			"U_I_G_Story_Protagonist_F",
+			"U_B_CombatUniform_mcam_worn",
+			"U_I_G_resistanceLeader_F",
+			"JaKdo_PCUHs",
+			"JaKdo_PCUs",
+			"JaKdo_PCUODHs",
+			"JaKdo_Wood_PCUs",
+			"JaKdo_uniform_black",
+			"JaKdo_uniform_erdl",
+			"JaKdo_uniform_multi1",
+			"JaKdo_uniform_kryptekh",
+			"JaKdo_uniform_kryptekgr",
+			"JaKdo_uniform_winter",
+			"JaKdo_PCUGHs",
+			"JaKdo_UCP_PCUs",
 			
-			//veste
+			//Casques / Chapeaux
+			"H_Bandanna_gry",
+			"H_Bandanna_khk",
+			"H_Bandanna_camo"
+			"H_ShemagOpen_tan",
+			"H_Shemag_olive",
+			"H_Shemag_olive_hs",
+			"H_ShemagOpen_khk",
+			"H_MilCap_dgtl",
+			"H_MilCap_ocamo",
+			"H_HelmetO_ocamo",
+			"JaKdo_Balaclava",
+			"JaKdo_Wollhaubeoliv",
+			"JaKdo_Wollhaubewinter",
+			"JaKdo_boonie_erdl",
+			"JaKdo_kryptekgigh",
+			"kio_skl_msk_red",
+			"DIS_Cobra_Mask",
+			"DIS_Camo_Flames_Mask",
 			
-			//
+			//Lunettes / Barbes
+			"G_Balaclava_blk",
+			"G_Balaclava_lowprofile",
+			"G_Balaclava_combat",
+			"G_Balaclava_oli",
+			"G_Bandanna_aviator",
+			"G_Bandanna_tan",
+			"G_Bandanna_blk",
+			"G_Bandanna_oli",
+			"G_Bandanna_shades",
+			"Mask_M40",
+			"Mask_M40_OD",
+			"jakdo_balaclava_BLK",
+			"jakdo_balaclavas_oliv",
+			"G_jakdo_Band_Us3c1",
+			"G_jakdo_Band_winter1",
+			"G_Balaclava_AutOliv",
+			
+			//Vestes
+			"V_PlateCarrier1_rgr",
+			"V_TacVest_khk",
+			"JaKdo_vest_kryptek",
+			"JaKdo_vest_Jagdk1",
+			"JaKdo_vest_Jagdk4",
+			"JaKdo_vest_Jagdk3",
+			"JaKdo_vest_black",
+			"JaKdo_vest_Major",
+			"JaKdo_vest_olivs",
+			"JaKdo_vest_winter",
+			"JaKdo_vest_tans"
 		];
 	};
 };

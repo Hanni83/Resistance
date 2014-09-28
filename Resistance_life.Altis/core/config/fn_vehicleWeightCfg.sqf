@@ -210,5 +210,11 @@ switch (_className) do
 	case "IVORY_CRJ200_1": {100};
 	case "globemaster_c17_705": {700};
 	case "O_Heli_Attack_02_black_F": {50};
+	case "cl3_q7_clpd_cn": {50};
+	case "cl3_q7_black": {100};
+	case "cl3_transit_black": {150};
+	case "cl3_transit_camo": {150};
+	case "cl3_q7_clpd_etu": {40};
+	case "cl3_q7_clpd_patrol": {40};
 	default {-1};
 };

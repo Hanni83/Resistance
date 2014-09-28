@@ -27,16 +27,14 @@ switch(_shop) do
 		{
 			case (playerSide != independent): {"Vous n'êtes pas Médecin !"};
 			default {
-				["Hospital EMS Shop",
+				["EMS Magasin General",
 					[
 						["ItemGPS",nil,100],
 						["ItemRadio","Smartphone",500],
-						["Binocular",nil,150],
-						["ToolKit",nil,250],
+						["ToolKit",nil,2000],
 						["FirstAidKit",nil,150],
-						["Medikit",nil,500],
-						["NVGoggles",nil,1200],
-						["B_FieldPack_ocamo",nil,3000]
+						["Medikit",nil,5000],
+						["NVGoggles_INDEP",nil,1200]
 					]
 				];
 			};
@@ -53,16 +51,16 @@ switch(_shop) do
 			{
 				["RLPD Equipement Recrue",
 					[
-						["MineDetector",nil,100],
+						["MineDetector",nil,1000],
 						["Binocular",nil,1000],
 						["ItemGPS",nil,500],
 						["ItemRadio",nil,500],
-						["FirstAidKit",nil,100],
+						["FirstAidKit",nil,250],
 						["ToolKit",nil,2000],
-						["Chemlight_red",nil,100],
-						["Chemlight_green",nil,100],
-						["Chemlight_blue",nil,100],
-						["Chemlight_yellow",nil,100]
+						["Chemlight_red",nil,300],
+						["Chemlight_green",nil,300],
+						["Chemlight_blue",nil,300],
+						["Chemlight_yellow",nil,300]
 					]
 				];
 			};
@@ -70,18 +68,18 @@ switch(_shop) do
 			{
 				["RLPD Equipement Caporal",
 					[
-						["MineDetector",nil,100],
+						["MineDetector",nil,1000],
 						["Binocular",nil,1000],
 						["NVGoggles",nil,5000],
 						["ItemGPS",nil,500],
 						["ItemRadio",nil,500],
-						["FirstAidKit",nil,100],
+						["FirstAidKit",nil,250],
 						["ToolKit",nil,2000],
 						["Medikit",nil,5000],
-						["Chemlight_red",nil,100],
-						["Chemlight_green",nil,100],
-						["Chemlight_blue",nil,100],
-						["Chemlight_yellow",nil,100]
+						["Chemlight_red",nil,300],
+						["Chemlight_green",nil,300],
+						["Chemlight_blue",nil,300],
+						["Chemlight_yellow",nil,300]
 					]
 				];
 			};
@@ -89,18 +87,18 @@ switch(_shop) do
 			{
 				["RLPD Equipement Sergent",
 					[
-						["MineDetector",nil,100],
+						["MineDetector",nil,1000],
 						["Binocular",nil,1000],
 						["NVGoggles",nil,5000],
 						["ItemGPS",nil,500],
 						["ItemRadio",nil,500],
-						["FirstAidKit",nil,100],
+						["FirstAidKit",nil,250],
 						["ToolKit",nil,2000],
 						["Medikit",nil,5000],
-						["Chemlight_red",nil,100],
-						["Chemlight_green",nil,100],
-						["Chemlight_blue",nil,100],
-						["Chemlight_yellow",nil,100]
+						["Chemlight_red",nil,300],
+						["Chemlight_green",nil,300],
+						["Chemlight_blue",nil,300],
+						["Chemlight_yellow",nil,300]
 					]
 				];
 			};
@@ -108,19 +106,19 @@ switch(_shop) do
 			{
 				["RLPD Equipement Sergent-Chef",
 					[
-						["MineDetector",nil,100],
+						["MineDetector",nil,1000],
 						["Binocular",nil,1000],
 						["NVGoggles",nil,5000],
 						["ItemGPS",nil,500],
 						["ItemRadio",nil,500],
 						["SmokeShell",nil,100],
-						["FirstAidKit",nil,100],
+						["FirstAidKit",nil,250],
 						["ToolKit",nil,2000],
 						["Medikit",nil,5000],
-						["Chemlight_red",nil,100],
-						["Chemlight_green",nil,100],
-						["Chemlight_blue",nil,100],
-						["Chemlight_yellow",nil,100]
+						["Chemlight_red",nil,300],
+						["Chemlight_green",nil,300],
+						["Chemlight_blue",nil,300],
+						["Chemlight_yellow",nil,300]
 					]
 				];
 			};
@@ -128,20 +126,20 @@ switch(_shop) do
 			{
 				["RLPD Equipement Lieutenant",
 					[
-						["MineDetector",nil,100],
+						["MineDetector",nil,1000],
 						["Binocular",nil,1000],
 						["Rangefinder",nil,10000],
 						["NVGoggles",nil,5000],
 						["ItemGPS",nil,500],
 						["ItemRadio",nil,500],
 						["SmokeShell",nil,100],
-						["FirstAidKit",nil,100],
+						["FirstAidKit",nil,250],
 						["ToolKit",nil,2000],
 						["Medikit",nil,5000],
-						["Chemlight_red",nil,100],
-						["Chemlight_green",nil,100],
-						["Chemlight_blue",nil,100],
-						["Chemlight_yellow",nil,100]
+						["Chemlight_red",nil,300],
+						["Chemlight_green",nil,300],
+						["Chemlight_blue",nil,300],
+						["Chemlight_yellow",nil,300]
 					]
 				];
 			};
@@ -149,7 +147,7 @@ switch(_shop) do
 			{
 				["RLPD Equipement Capitaine",
 					[
-						["MineDetector",nil,100],
+						["MineDetector",nil,1000],
 						["Binocular",nil,1000],
 						["Rangefinder",nil,10000],
 						["NVGoggles",nil,5000],
@@ -158,13 +156,13 @@ switch(_shop) do
 						["ItemRadio",nil,500],
 						["SmokeShell",nil,100],
 						["1Rnd_Smoke_Grenade_shell",nil,200],
-						["FirstAidKit",nil,100],
+						["FirstAidKit",nil,250],
 						["ToolKit",nil,2000],
 						["Medikit",nil,5000],
-						["Chemlight_red",nil,100],
-						["Chemlight_green",nil,100],
-						["Chemlight_blue",nil,100],
-						["Chemlight_yellow",nil,100]
+						["Chemlight_red",nil,300],
+						["Chemlight_green",nil,300],
+						["Chemlight_blue",nil,300],
+						["Chemlight_yellow",nil,300]
 					]
 				];
 			};
@@ -172,7 +170,7 @@ switch(_shop) do
 			{
 				["RLPD Equipement Major",
 					[
-						["MineDetector",nil,100],
+						["MineDetector",nil,1000],
 						["Binocular",nil,1000],
 						["Rangefinder",nil,10000],
 						["NVGoggles",nil,5000],
@@ -181,13 +179,13 @@ switch(_shop) do
 						["ItemRadio",nil,500],
 						["SmokeShell",nil,100],
 						["1Rnd_Smoke_Grenade_shell",nil,200],
-						["FirstAidKit",nil,100],
+						["FirstAidKit",nil,250],
 						["ToolKit",nil,2000],
 						["Medikit",nil,5000],
-						["Chemlight_red",nil,100],
-						["Chemlight_green",nil,100],
-						["Chemlight_blue",nil,100],
-						["Chemlight_yellow",nil,100]
+						["Chemlight_red",nil,300],
+						["Chemlight_green",nil,300],
+						["Chemlight_blue",nil,300],
+						["Chemlight_yellow",nil,300]
 					]
 				];
 			};
@@ -195,7 +193,7 @@ switch(_shop) do
 			{
 				["RLPD Equipement Chef de Police",
 					[
-						["MineDetector",nil,100],
+						["MineDetector",nil,1000],
 						["Binocular",nil,1000],
 						["Rangefinder",nil,10000],
 						["NVGoggles",nil,5000],
@@ -204,13 +202,13 @@ switch(_shop) do
 						["ItemRadio",nil,500],
 						["SmokeShell",nil,100],
 						["1Rnd_Smoke_Grenade_shell",nil,200],
-						["FirstAidKit",nil,100],
+						["FirstAidKit",nil,250],
 						["ToolKit",nil,2000],
 						["Medikit",nil,5000],
-						["Chemlight_red",nil,100],
-						["Chemlight_green",nil,100],
-						["Chemlight_blue",nil,100],
-						["Chemlight_yellow",nil,100]
+						["Chemlight_red",nil,300],
+						["Chemlight_green",nil,300],
+						["Chemlight_blue",nil,300],
+						["Chemlight_yellow",nil,300]
 					]
 				];
 			};
@@ -555,7 +553,7 @@ switch(_shop) do
 			case (!license_civ_rebel): {"Vous n'avez pas l'entraînement Rebelle!"};
 			default
 			{
-				["Mohammed's Jihadi Shop",
+				["Magasin Armes Rebelle",
 					[
 						["hgun_mas_glock_F",nil,15000],
 						["17Rnd_mas_9x21_Mag",nil,500],
@@ -596,9 +594,9 @@ switch(_shop) do
 						["optic_Aco",nil,1500],
 						["optic_ACO_grn",nil,1500],
 						["optic_DMS",nil,200000],
-						["muzzle_snds_H",nil,30000],
-						["muzzle_snds_L",nil,30000],
-						["muzzle_snds_B",nil,30000],
+						["muzzle_snds_H",nil,50000],
+						["muzzle_snds_L",nil,50000],
+						["muzzle_snds_B",nil,50000],
 						["NVGoggles_INDEP",nil,10000],
 						["Binocular",nil,1500],
 						["ItemGPS",nil,500],
@@ -623,7 +621,7 @@ switch(_shop) do
 			case (!license_civ_gun): {"Vous n'avez pas la licence de port d'arme!"};
 			default
 			{
-				["Billy Joe's Firearms",
+				["Armurerie Civil",
 					[
 						["hgun_mas_mak_F",nil,5000],
 						["8Rnd_mas_9x18_Mag",nil,50],
@@ -675,7 +673,7 @@ switch(_shop) do
 	
 	case "genstore":
 	{
-		["Altis General Store",
+		["Altis Magasin General",
 			[
 				["Binocular",nil,1500],
 				["ItemGPS",nil,500],
