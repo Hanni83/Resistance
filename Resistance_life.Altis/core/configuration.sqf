@@ -35,6 +35,7 @@ life_interrupted = false;
 life_respawned = false;
 life_removeWanted = false;
 life_action_gather = false;
+life_action_gathering = false;
 life_drink = 0;
 life_channel_send = true;
 life_god = false; //Add this
@@ -193,7 +194,9 @@ life_inv_items =
 	"life_inv_mdma",
 	"life_inv_morphine",
 	"life_inv_speed",
-	"life_inv_speedball"
+	"life_inv_speedball",
+	"life_inv_fencecutters",
+    "life_inv_gpstracker"
 ];
 
 //Setup variable inv vars.
@@ -239,7 +242,10 @@ life_licenses =
 	["license_civ_speedball","civ"],
 	["license_civ_acier","civ"],
 	["license_civ_acierino","civ"],
-	["license_civ_transaltis","civ"]
+	["license_civ_transaltis","civ"],
+    ["license_civ_don","civ"],
+    ["license_civ_merc","civ"],
+    ["license_civ_cantailla","civ"]
 ];
 
 //Setup License Variables
@@ -305,7 +311,9 @@ sell_array =
 	["mdma",3000],
 	["speedball",24000],
 	["biere",1900],
-	["charbon",100]
+	["charbon",100],
+	["fence_cut",2],
+    ["gpstracker",1000]
 ];
 __CONST__(sell_array,sell_array);
 
@@ -338,7 +346,9 @@ buy_array =
 	["storagesmall",75000],
 	["storagebig",150000],
 	["figue",70],
-	["morphine",250]
+	["morphine",250],
+	["fence_cut",20000],
+    ["gpstracker",5000]
 ];
 __CONST__(buy_array,buy_array);
 
@@ -390,9 +400,16 @@ __CONST__(life_weapon_shop_array,life_weapon_shop_array);
 life_garage_prices =
 [
 	["RDS_Lada_Civ_01",300],
+    ["RDS_Lada_Civ_02",300],
+    ["RDS_Lada_Civ_03",300],
+    ["RDS_Lada_Civ_04",300],
+    ["RDS_Lada_Civ_05",300],
 	["RDS_Gaz24_Civ_03",600],
+    ["RDS_Gaz24_Civ_02",600],
+    ["RDS_Gaz24_Civ_03",600],
 	["C_Offroad_01_F",900],
 	["RDS_Golf4_Civ_01",1200],
+    ["RDS_Octavia_Civ_01",1400],
 	["C_SUV_01_F",1200],
 	["C_Van_01_transport_F",1400],
 	["DAR_ImpalaCiv",1400],
@@ -441,7 +458,7 @@ life_garage_prices =
 	["DAR_CVPlPolice",1000],
 	["DAR_ImpalaPolice",1000],
 	["DAR_TahoePolice",2000],
-	["DAR_TaurusPoliceState",1000],
+	["DAR_TaurusPolice",1000],
 	["DAR_SWATPolice",5000],
 	["DAR_TahoePoliceDet",2000],
 	["DAR_ExplorerPolice",3000],
@@ -519,16 +536,28 @@ life_garage_prices =
 	["cl3_transit_black",10000],
 	["cl3_transit_camo",10000],
 	["cl3_q7_clpd_etu",7500],
-	["cl3_q7_clpd_patrol",7500]
+	["cl3_q7_clpd_patrol",7500],
+    ["O_Heli_Light_02_F",70000],
+    ["B_Heli_Light_01_armed_F",50000],
+    ["MMT_Civ",500],
+    ["Jonzie_Viper",35000],
+    ["A3L_Dumptruck",15000]
 ];
 __CONST__(life_garage_prices,life_garage_prices);
 
 life_garage_sell =
 [
 	["RDS_Lada_Civ_01",300],
+    ["RDS_Lada_Civ_02",300],
+    ["RDS_Lada_Civ_03",300],
+    ["RDS_Lada_Civ_04",300],
+    ["RDS_Lada_Civ_05",300],
 	["RDS_Gaz24_Civ_03",600],
+    ["RDS_Gaz24_Civ_02",600],
+    ["RDS_Gaz24_Civ_03",600],
 	["C_Offroad_01_F",900],
 	["RDS_Golf4_Civ_01",1200],
+    ["RDS_Octavia_Civ_01",1400],
 	["C_SUV_01_F",1200],
 	["C_Van_01_transport_F",1400],
 	["DAR_ImpalaCiv",1400],
@@ -655,6 +684,11 @@ life_garage_sell =
 	["cl3_transit_black",55000],
 	["cl3_transit_camo",55000],
 	["cl3_q7_clpd_etu",15000],
-	["cl3_q7_clpd_patrol",25000]
+	["cl3_q7_clpd_patrol",25000],
+    ["O_Heli_Light_02_F",70000],
+    ["B_Heli_Light_01_armed_F",50000],
+    ["MMT_Civ",500],
+    ["Jonzie_Viper",35000],
+    ["A3L_Dumptruck",15000]
 ];
 __CONST__(life_garage_sell,life_garage_sell);

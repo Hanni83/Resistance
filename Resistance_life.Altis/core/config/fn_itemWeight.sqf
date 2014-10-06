@@ -83,5 +83,7 @@ switch (_item) do
 	case "morphine": {1};
 	case "speed": {3};
 	case "speedball": {2};
+	case "fence_cut": {2};
+    case "gpstracker": {2};
 	default {1};
 };

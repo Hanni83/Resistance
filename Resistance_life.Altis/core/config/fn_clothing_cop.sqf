@@ -185,6 +185,7 @@ switch (_filter) do
 			_ret pushBack ["SFG_Tac_smallBeardD",nil,2500];
 			_ret pushBack ["SFG_Tac_moustacheD",nil,2500];
 			_ret pushBack ["SFG_Tac_ChopsD",nil,2500];
+            _ret pushBack ["SFG_Tac_BeardD",nil,2500];
 			_ret pushBack ["G_Balaclava_blk",nil,550];
 			_ret pushBack ["G_Balaclava_lowprofile",nil,550];
 			_ret pushBack ["G_Balaclava_combat",nil,550];
@@ -200,6 +201,7 @@ switch (_filter) do
 			_ret pushBack ["SFG_Tac_smallBeardD",nil,2500];
 			_ret pushBack ["SFG_Tac_moustacheD",nil,2500];
 			_ret pushBack ["SFG_Tac_ChopsD",nil,2500];
+            _ret pushBack ["SFG_Tac_BeardD",nil,2500];
 			_ret pushBack ["G_Balaclava_blk",nil,550];
 			_ret pushBack ["G_Balaclava_lowprofile",nil,550];
 			_ret pushBack ["G_Balaclava_combat",nil,550];
@@ -215,6 +217,7 @@ switch (_filter) do
 			_ret pushBack ["SFG_Tac_smallBeardD",nil,2500];
 			_ret pushBack ["SFG_Tac_moustacheD",nil,2500];
 			_ret pushBack ["SFG_Tac_ChopsD",nil,2500];
+            _ret pushBack ["SFG_Tac_BeardD",nil,2500];
 			_ret pushBack ["G_Balaclava_blk",nil,550];
 			_ret pushBack ["G_Balaclava_lowprofile",nil,550];
 			_ret pushBack ["G_Balaclava_combat",nil,550];
@@ -230,6 +233,7 @@ switch (_filter) do
 			_ret pushBack ["SFG_Tac_smallBeardD",nil,2500];
 			_ret pushBack ["SFG_Tac_moustacheD",nil,2500];
 			_ret pushBack ["SFG_Tac_ChopsD",nil,2500];
+            _ret pushBack ["SFG_Tac_BeardD",nil,2500];
 			_ret pushBack ["G_Balaclava_blk",nil,550];
 			_ret pushBack ["G_Balaclava_lowprofile",nil,550];
 			_ret pushBack ["G_Balaclava_combat",nil,550];

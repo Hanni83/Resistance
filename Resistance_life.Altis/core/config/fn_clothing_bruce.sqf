@@ -94,7 +94,8 @@ switch (_filter) do
 			["G_Combat",nil,255],
 			["SFG_Tac_smallBeardD",nil,2500],
 			["SFG_Tac_moustacheD",nil,2500],
-			["SFG_Tac_ChopsD",nil,2500]
+			["SFG_Tac_ChopsD",nil,2500],
+            ["SFG_Tac_BeardD",nil,2500]
 		];
 	};
 	

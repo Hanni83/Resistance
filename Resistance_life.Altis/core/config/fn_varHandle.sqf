@@ -91,6 +91,8 @@ switch (_mode) do
 			case "morphine": {"life_inv_morphine"};
 			case "speed": {"life_inv_speed"};
 			case "speedball": {"life_inv_speedball"};
+			case "fence_cut": {"life_inv_fencecutters"};
+            case "gpstracker": {"life_inv_gpstracker"};
 		};
 	};
 	
@@ -174,6 +176,8 @@ switch (_mode) do
 			case "life_inv_morphine": {"morphine"};
 			case "life_inv_speed": {"speed"};
 			case "life_inv_speedball": {"speedball"};
+			case "life_inv_fencecutters": {"fence_cut"};
+            case "life_inv_gpstracker": {"gpstracker"};
 		};
 	};
 };

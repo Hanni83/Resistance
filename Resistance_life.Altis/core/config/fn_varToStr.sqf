@@ -47,7 +47,7 @@ switch (_var) do
 	case "life_inv_spikeStrip": {(localize "STR_Item_SpikeStrip")};
 	case "life_inv_barricade": {"Barricade"};
 	case "life_inv_barrier": {"Barriere"};
-	case "life_inv_cone": {"Cône Sécurité"};
+	case "life_inv_cone": {"Cône de Sécurité"};
 	case "life_inv_goldbar": {(localize "STR_Item_GoldBar")};
 	case "life_inv_blastingcharge": {(localize "STR_Item_BCharge")};
 	case "life_inv_boltcutter": {(localize "STR_Item_BCutter")};
@@ -87,6 +87,8 @@ switch (_var) do
 	case "life_inv_morphine": {(localize "STR_Item_Morphine")};
 	case "life_inv_speed": {(localize "STR_Item_Speed")};
 	case "life_inv_speedball": {(localize "STR_Item_Speedball")};
+	case "life_inv_fencecutters": {"Pince Coupante"};
+    case "life_inv_gpstracker": {"Mouchard"};
 	
 	//License Block
 	case "license_civ_driver": {(localize "STR_License_Driver")};
@@ -127,4 +129,7 @@ switch (_var) do
 	case "license_civ_acier": {(localize "STR_License_Acier")};
 	case "license_civ_acierino": {(localize "STR_License_AcierIno")};
 	case "license_civ_transaltis": {"Licence TransAltis"};
+    case "license_civ_don": {"Donateur"};
+    case "license_civ_merc": {"Mercenaire"};
+    case "license_civ_cantailla": {"Famille Cantailla"};
 };

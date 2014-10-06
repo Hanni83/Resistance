@@ -87,11 +87,6 @@ switch (true) do
 		[] spawn life_fnc_pickAxeUse;
 	};
 	
-	case (_item == "pelle"):
-	{
-		[] spawn life_fnc_pelleUse;
-	};
-	
 	case (_item == "barricade"):
 	{
 		if(!isNull life_barricade) exitWith {hint "Tu es déjà en train de déployer une Barricade!"};
@@ -107,15 +102,6 @@ switch (true) do
 		if(([false,_item,1] call life_fnc_handleInv)) then
 		{
 			[] spawn life_fnc_barrier;
-		};
-	};
-	
-	case (_item == "cone"):
-	{
-		if(!isNull life_cone) exitWith {hint "Tu es déjà en train de déployer un cône"};
-		if(([false,_item,1] call life_fnc_handleInv)) then
-		{
-			[] spawn life_fnc_cone;
 		};
 	};
 	
@@ -172,7 +158,7 @@ switch (true) do
 				life_redgull_effect = time;
 				titleText[localize "STR_ISTR_RedGullEffect","PLAIN"];
 				player enableFatigue false;
-				waitUntil {!alive player OR ((time - life_redgull_effect) > (3 * 60))};
+				waitUntil {!alive player OR ((time - life_redgull_effect) > (5 * 60))};
 				player enableFatigue true;
 			};
 		};
@@ -216,6 +202,10 @@ switch (true) do
 			if (life_drink < 0.06) exitWith {};
 			[] spawn life_fnc_biere;
 		};
+	};
+    
+    case (_item == "gpstracker"): {
+		[cursorTarget] spawn life_fnc_gpsTracker;
 	};
 	
 	default

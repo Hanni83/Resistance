@@ -182,7 +182,7 @@ switch(_mode) do
 			//Casques / Chapeaux
 			"H_Bandanna_gry",
 			"H_Bandanna_khk",
-			"H_Bandanna_camo"
+			"H_Bandanna_camo",
 			"H_ShemagOpen_tan",
 			"H_Shemag_olive",
 			"H_Shemag_olive_hs",

@@ -31,6 +31,22 @@ if(_veh == "B_Heli_Transport_01_F") then
 {
 };
 
+if(_veh == "O_Heli_Light_02_F") then 
+{
+    _vehicle removeMagazinesTurret ["12Rnd_PG_missiles",[-1]];
+};
+
+if(_veh == "B_Heli_Light_01_armed_F") then 
+{
+    _vehicle removeMagazinesTurret ["24Rnd_missiles",[-1]];
+};
+
+if(_veh == "B_Heli_Attack_01_F") then 
+{
+    _vehicle removeMagazinesTurret ["4Rnd_AAA_missiles",[-1]];
+    _vehicle removeMagazinesTurret ["24Rnd_PG_missiles",[-1]];
+};
+
 clearWeaponCargoGlobal _vehicle;
 clearMagazineCargoGlobal _vehicle;
 clearItemCargoGlobal _vehicle;

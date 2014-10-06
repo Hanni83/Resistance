@@ -11,4 +11,4 @@ _unit setVariable["transporting",FALSE,TRUE];
 detach _unit;
 player say3D "cuff";
 //[[0,format[localize "STR_NOTF_Unrestrain",_unit getVariable["realname",name _unit], profileName]],"life_fnc_broadcast",west,FALSE] call life_fnc_MP;
-[[0,format[localize "STR_NOTF_Unrestrain",name _unit, name player]],"life_fnc_broadcast",west,FALSE] call life_fnc_MP;
+[[0,"STR_NOTF_Unrestrain",true,[_unit getVariable["realname",name _unit], profileName]],"life_fnc_broadcast",west,FALSE] call life_fnc_MP;

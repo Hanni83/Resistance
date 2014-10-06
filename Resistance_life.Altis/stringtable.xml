@@ -175,19 +175,19 @@
 			<Original>You are about to give yourself $%1 to compensate to another player &lt;br/&gt;&lt;br/&gt;You must give this cash to the person you are compensating manually.</Original>
 			<English>You are about to give yourself $%1 to compensate to another player &lt;br/&gt;&lt;br/&gt;You must give this cash to the person you are compensating manually.</English>
 			<German>To Be Changed</German>
-			<French>Vous êtes sur le point de vous donner $%1 pour rembourser un autre joueur &lt;br/&gt;&lt;br/&gt;S'il vous plaît veuillez donner l'argent a la personne.</French>
+			<French>Vous êtes sur le point de vous donner %1$ pour rembourser un autre joueur &lt;br/&gt;&lt;br/&gt; S'il vous plaît veuillez donner l'argent a la personne.</French>
 		</Key>
 		<Key ID="STR_ANOTF_Success">
 			<Original>You have added $%1 to your account.</Original>
 			<English>You have added $%1 to your account.</English>
 			<German>To Be Changed</German>
-			<French>Vous avez ajouté $%1 à votre compte</French>
+			<French>Vous avez ajouté %1$ à votre compte</French>
 		</Key>
 		<Key ID="STR_ANOTF_Fail">
 			<Original>You can not go above 999999.</Original>
 			<English>You can not go above 999999.</English>
 			<German>To Be Changed</German>
-			<French>Vous ne pouvez pas aller au-dessus $999999</French>
+			<French>Vous ne pouvez pas aller au-dessus 999,999$</French>
 		</Key>
 		<Key ID="STR_ANOTF_Amount">
 			<Original>Please type in the amount to compensate.</Original>
@@ -319,7 +319,7 @@
 			<Original>You can't deposit more then $999,999 at a time</Original>
 			<English>You can't deposit more then $999,999 at a time</English>
 			<German>Du kannst nicht mehr als $999,999 gleichzeitig einzahlen</German>
-			<French>Vous ne pouvez pas déposer plus de $999,999</French>
+			<French>Vous ne pouvez pas déposer plus de 999,999$</French>
 			<Italian>Non puoi depositare più di €999,999 alla volta</Italian>
 			<Portuguese>Você não pode transferir mais de R$999,999 em uma transação</Portuguese>
 		</Key>
@@ -359,7 +359,7 @@
  			<Original>You can't transfer more then $999,999</Original>
  			<English>You can't transfer more then $999,999</English>
 			<German>Du kannst nicht mehr als $999,999 überweisen</German>
- 			<French>Vous ne pouvez pas transférer plus de $999,999</French>
+ 			<French>Vous ne pouvez pas transférer plus de 999,999$</French>
 			<Italian>Non puoi trasferire più di €999.000 alla volta</Italian>
 			<Portuguese>Você pode trasferir no máximo R$999.999.</Portuguese>
  		</Key>
@@ -375,7 +375,7 @@
  			<Original>You do not have enough money in your bank account, to transfer $%1 you will need $%2 as a tax fee.</Original>
  			<English>You do not have enough money in your bank account, to transfer $%1 you will need $%2 as a tax fee.</English>
 			<German>Du hast nicht genug Geld auf deinem Konto, es kostet $%2, um $%1 zu überweisen.</German>
- 			<French>Vous n'avez pas assez d'agent sur votre compte bancaire, pour transférer $%1 vous devez payer $%2 de taxe</French>
+ 			<French>Vous n'avez pas assez d'agent sur votre compte bancaire, pour transférer %1$ vous devez payer %2$ de taxe</French>
 			<Italian>Non hai fondi sufficienti nel tuo conto in banca, per trasferire €%1 necessiti di €%2 per pagare la tassa di traferimento.</Italian>
 			<Portuguese>Você não tem dinheiro suficiente na suca conta bancária. Para trasferir R$%1 você vai pagar R$%2 de taxa</Portuguese>
  		</Key>
@@ -383,7 +383,7 @@
  			<Original>You have transfered $%1 to %2.\n\nA tax fee of $%3 was taken for the wire transfer.</Original>
  			<English>You have transfered $%1 to %2.\n\nA tax fee of $%3 was taken for the wire transfer.</English>
 			<German>Du hast $%1 an %2 überwiesen.\n\nEine Gebühr von $%3 wurde verrechnet.</German>
- 			<French>Vous avez transférer $%1 à %2.\n\nA La taxe de $%3 vous à été prélevée pendant le transfert.</French>
+ 			<French>Vous avez transférer %1$ à %2.\n\nA La taxe de %3$ vous à été prélevée pendant le transfert.</French>
 			<Italian>Hai trasferito €%1 a €%2.\n\nSono stati trattenuti €%3 di tassa per il trasferimento.</Italian>
 			<Portuguese>Você trasferiu R$%1 para %2.\n\nA taxa de trasferencia foi de R$%1.</Portuguese>
  		</Key>
@@ -391,7 +391,7 @@
  			<Original>You can't withdraw more then $999,999</Original>
  			<English>You can't withdraw more then $999,999</English>
 			<German>Du kannst nicht mehr als $999,999 abheben</German>
- 			<French>Vous ne pouvez pas retirer plus de $999,999</French>
+ 			<French>Vous ne pouvez pas retirer plus de 999,999$</French>
 			<Italian>Non puoi prelevare più di €999.000 in una volta</Italian>
 			<Portuguese>Você pode sacar no máximo R$999.999</Portuguese>
  		</Key>
@@ -399,7 +399,7 @@
  			<Original>You can't withdraw less then $100</Original>
  			<English>You can't withdraw less then $100</English>
 			<German>Du kannst nicht weniger als $100 abheben</German>
- 			<French>Vous ne pouvez pas retirer moins de $100</French>
+ 			<French>Vous ne pouvez pas retirer moins de 100$</French>
 			<Italian>Non puoi prelevare meno di €100</Italian>
 			<Portuguese>Você não pode sacar menos de R$100.</Portuguese>
  		</Key>
@@ -407,7 +407,7 @@
  			<Original>You have withdrawn $%1 from your bank account</Original>
  			<English>You have withdrawn $%1 from your bank account</English>
 			<German>Du hast $%1 von deinem Bankkonto abgehoben</German>
- 			<French>Vous avez retiré $%1 de votre compte en banque</French>
+ 			<French>Vous avez retiré %1$ de votre compte en banque</French>
 			<Italian>Hai prelevato €%1 dal tuo conto in banca</Italian>
 			<Portuguese>Você sacou R$%1 de sua conta bancária.</Portuguese>
  		</Key>
@@ -423,7 +423,7 @@
  			<Original>You have deposited $%1 into your gangs bank account</Original>
  			<English>You have deposited $%1 into your gangs bank account</English>
 			<German>Du hast $%1 auf dein Gang Konto überwiesen</German>
- 			<French>Vous avez déposé $%1 sur le compte bancaire de votre gang.</French>
+ 			<French>Vous avez déposé %1$ sur le compte bancaire de votre gang.</French>
 			<Italian>Hai despoitato €%1 nel conto bancario della tua gang</Italian>
 			<Portuguese>Você depositou R$%1 na conta de sua gangue.</Portuguese>
  		</Key>
@@ -727,7 +727,7 @@
 			<Original>You do not have enough money in your bank account.\n\nYou lack: $%1</Original>
 			<English>You do not have enough money in your bank account.\n\nYou lack: $%1</English>
 			<German>Du hast nicht genug Geld auf deinem Bankkonto.\n\nDir fehlen: $%1</German>
-			<French>Vous n'avez pas assez d'argent dans votre compte bancaire.\n\nIl vous manque: $%1</French>
+			<French>Vous n'avez pas assez d'argent dans votre compte bancaire.\n\nIl vous manque: %1$</French>
 			<Italian>Non hai abbastanza fondi nel tuo conto in banca.\n\nTi mancano: €%1</Italian>
 			<Portuguese>Você não tem dinheiro suficiente na sua conta bancária.\n\nFaltam: R$%1</Portuguese>
 		</Key>
@@ -735,7 +735,7 @@
 			<Original>You have created the gang %1 for $%2</Original>
 			<English>You have created the gang %1 for $%2</English>
 			<German>Du hast die Gang %1 für $%2 erstellt</German>
-			<French>Vous avez créé le gang %1 pour $%2</French>
+			<French>Vous avez créé le gang %1 pour %2$</French>
 			<Italian>Hai creato la Gang %1 al costo di €%2</Italian>
 			<Portuguese>Você criou a gangue %1 por R$%2</Portuguese>
 		</Key>
@@ -935,7 +935,7 @@
 			<Original>You have upgraded from %1 to %2 maximum slots for &lt;t color='#8cff9b'&gt;$%3&lt;/t&gt;</Original>
 			<English>You have upgraded from %1 to %2 maximum slots for &lt;t color='#8cff9b'&gt;$%3&lt;/t&gt;</English>
 			<German>Du hast für &lt;t color='#8cff9b'&gt;$%3&lt;/t&gt; von %1 auf %2 Plätze erhöht</German>
-			<French>Vous avez mis à niveau à partir de %1 à %2 membres maximum pour &lt;t color='#8cff9b'&gt;$%3&lt;/t&gt;</French>
+			<French>Vous avez mis à niveau à partir de %1 à %2 membres maximum pour &lt;t color='#8cff9b'&gt;%3$&lt;/t&gt;</French>
 			<Italian>Hai aumentato i posti massimi da %1 a %2 per &lt;t color='#8cff9b'&gt;€%3&lt;/t&gt;</Italian>
 			<Portuguese>Limite de membros atualizado de %1 para %2 por &lt;t color='#8cff9b'&gt;R$%3&lt;/t&gt;</Portuguese>
 		</Key>
@@ -1631,7 +1631,7 @@
 			<Original>You have sold a %1 for $%2</Original>
 			<English>You have sold a %1 for $%2</English>
 			<German>Du hast einen %1 für $%2 verkauft</German>
-			<French>Tu as vendu cet élément : %1 pour $%2</French>
+			<French>Tu as vendu cet élément : %1 pour %2$</French>
 			<Italian>Hai venduto un %1 per %2€</Italian>
 			<Portuguese>Você vendeu %1 por R$%2</Portuguese>
 		</Key>
@@ -1679,7 +1679,7 @@
 			<Original>You do not have $%1 to be healed</Original>
 			<English>You do not have $%1 to be healed</English>
 			<German>Du hast keine $%1, um geheilt zu werden.</German>
-			<French>Vous n'avez pas $%1 pour vous soignez.</French>
+			<French>Vous n'avez pas %1$ pour vous soignez.</French>
 			<Italian>Non hai €$1 per essere curato</Italian>
 			<Portuguese>Você não tem R$%1 para ser tratado</Portuguese>
 		</Key>
@@ -1735,7 +1735,7 @@
 			<Original>You have impounded a %1\n\nYou have received $%2 for cleaning up the streets!</Original>
 			<English>You have impounded a %1\n\nYou have received $%2 for cleaning up the streets!</English>
 			<German>Du hast einen %1 beschlagnahmt\n\nDu hast $%2 für das Aufräumen der Straßen bekommen!</German>
-			<French>Vous avez mis en fourrière un(e) %1\n\nVous avez reçus $%2 pour avoir nettoyé les rues!</French>
+			<French>Vous avez mis en fourrière un(e) %1\n\nVous avez reçus %2$ pour avoir nettoyé les rues!</French>
 			<Italian>Hai sequestrato un %1\n\nHai ricevuto €%2 per aver mantenuto l'ordine nelle strade!</Italian>
 			<Portuguese>Você apreendeu %1\n\nVocê recebeu R$%2 por deixar as ruas mais seguras!</Portuguese>
 		</Key>
@@ -1823,7 +1823,7 @@
 			<Original>%1 has been placed in evidence, you have received $%2 as a reward.</Original>
 			<English>%1 has been placed in evidence, you have received $%2 as a reward.</English>
 			<German>%1 hat Beweise hinterlassen, du hast eine Belohnung von $%2 erhalten.</German>
-			<French>Vous avez ramassé la drogue de %1, vous avez reçu $%2 comme une récompense.</French>
+			<French>Vous avez ramassé la drogue de %1, vous avez reçu %2$ comme une récompense.</French>
 			<Italian>E' stata trovata della merce illegale: %1, hai ricevuto €%2 come ricompensa.</Italian>
 			<Portuguese>%1 foi pego como evidência, você recebeu R$%2 como recompensa.</Portuguese>
 		</Key>
@@ -1831,7 +1831,7 @@
 			<Original>You have picked up $%1</Original>
 			<English>You have picked up $%1</English>
 			<German>Du hast $%1 aufgehoben</German>
-			<French>Vous avez ramassé $%1</French>
+			<French>Vous avez ramassé %1$</French>
 			<Italian>Hai raccolto €%1</Italian>
 			<Portuguese>Você pegou R$%1</Portuguese>
 		</Key>
@@ -1847,7 +1847,7 @@
 			<Original>You do not have $%1 in your bank account to pay bail.</Original>
 			<English>You do not have $%1 in your bank account to pay bail.</English>
 			<German>Du hast keine $%1 auf deinem Bankkonto, um die Kaution zu bezahlen.</German>
-			<French>Vous n'avez pas $%1 dans votre compte en banque pour payer la caution.</French>
+			<French>Vous n'avez pas %1$ dans votre compte en banque pour payer la caution.</French>
 			<Italian>Non hai €%1 nel tuo conto in banca per poter pagare la cauzione.</Italian>
 			<Portuguese>Você não tem R$%1 em sua conta bancária para pagar a fiança.</Portuguese>
 		</Key>
@@ -1895,7 +1895,7 @@
 			<Original>This vehicle has no information, it was probably spawned in through cheats. \n\nDeleting vehicle.</Original>
 			<English>This vehicle has no information, it was probably spawned in through cheats. \n\nDeleting vehicle.</English>
 			<German>Über das Fahrzeug gibt es keine Informationen, es wurde vermutlich durch Cheats gespawnt. \n\nLösche Fahrzeuge.</German>
-			<French>Ce véhicule dispose d'aucune information, il a probablement été engendré par un tricheur. \n\ véhicule Deleting.</French>
+			<French>Ce véhicule dispose d'aucune information, il a probablement été engendré par un tricheur.</French>
 			<Italian>Il veicolo è privo di identificativi, probabilmente è stato creato mediante cheat. \n\nCancellazione veicolo.</Italian>
 			<Portuguese>Esse veículo não tem informações, é provável que ele tenha sido criado por um cheater.\n\nDeletando veículo.</Portuguese>
 		</Key>
@@ -1919,7 +1919,7 @@
 			<Original>%1 has robbed %2 for $%3</Original>
 			<English>%1 has robbed %2 for $%3</English>
 			<German>%1 hat $%3 von %2 geraubt</German>
-			<French>%1 a volé %2 pour $%3</French>
+			<French>%1 a volé %2 pour %3$</French>
 			<Italian>%1 ha rapinato %2 di €%3</Italian>
 			<Portuguese>%1 roubou R$%3 de %2</Portuguese>
 		</Key>
@@ -1943,7 +1943,7 @@
 			<Original>A vehicle was searched and has $%1 worth of drugs / contraband.</Original>
 			<English>A vehicle was searched and has $%1 worth of drugs / contraband.</English>
 			<German>Ein Fahrzeug wurde durchsucht und es wurden Drogen / Schmuggelware im Wert von $%1 gefunden.</German>
-			<French>Un véhicule venant d'être fouillé avait $%1 de drogue / contrebande.</French>
+			<French>Un véhicule venant d'être fouillé avait %1$ de drogue / contrebande.</French>
 			<Italian>Un veidolo è stato ispezionato e sono stati sequestrati €%1 in materiale illegale.</Italian>
 			<Portuguese>O veículo foi revistado e tem R$%1 em drogas ou contrabandos</Portuguese>
 		</Key>
@@ -1967,7 +1967,7 @@
 			<Original>%1 has given you $%2</Original>
 			<English>%1 has given you $%2</English>
 			<German>%1 hat dir $%2 gegeben</German>
-			<French>%1 vous a donné $%2</French>
+			<French>%1 vous a donné %2$</French>
 			<Italian>%1 ti ha dato €%2</Italian>
 			<Portuguese>%1 lhe deu R$%2</Portuguese>
 		</Key>
@@ -2031,7 +2031,7 @@
  			<Original>You need $%1 to process without a license!</Original>
 			<English>You need $%1 to process without a license!</English>
 			<German>Du musst $%1 haben, um ohne eine Lizenz verarbeiten zu können!</German>
-			<French>Vous devez payer $%1 pour traiter sans licence!</French>
+			<French>Vous devez payer %1$ pour traiter sans licence!</French>
 			<Portuguese>Você precisa de R$%1 para processar sem uma licença!</Portuguese>
  		</Key>
  		<Key ID="STR_NOTF_RapidAction">
@@ -2173,7 +2173,7 @@
  		<Key ID="STR_NOTF_Gather_Success">
 			<Original>You have gathered %2 %1(s)</Original>
 			<English>You have gathered %2 %1(s)</English>
-			<French>Vous avez recueilli %2 %1(s)</French>
+			<French>Vous avez cueilli %2 %1(s)</French>
 		</Key>
 		<Key ID="STR_NOTF_GatherVeh">
 			<Original>You can't gather from inside a car!</Original>
@@ -2183,6 +2183,7 @@
 		<Key ID="STR_NOTF_NoLootingPerson">
 			<Original>You are not allowed to loot dead bodies</Original>
 			<English>You are not allowed to loot dead bodies</English>
+			<French>Vous n'êtes pas autorisé à piller ce cadavre</French>
 		</Key>
 	</Package>
 	<Package name="Jail_Strings">
@@ -2295,7 +2296,7 @@
 			<Original>You stole $%1</Original>
 			<English>You stole $%1</English>
 			<German>Du hast $%1 geraubt.</German>
-			<French>Vous avez volé $%1</French>
+			<French>Vous avez volé %1$</French>
 			<Italian>Hai rubato €%1</Italian>
 			<Portuguese>Você roubou R$%1</Portuguese>
 		</Key>
@@ -2369,7 +2370,7 @@
 			<Original>Person to ticket is nil</Original>
 			<English>Person to ticket is nil</English>
 			<German>Person für das Ticket ist nil</German>
-			<French>La personne à verbaliser est nulle</French>
+			<French>La personne à verbaliser éxiste pas</French>
 			<Italian>La persona da multare è nil</Italian>
 			<Portuguese>Jogador a ser multado é nulo</Portuguese>
 		</Key>
@@ -2393,7 +2394,7 @@
 			<Original>Tickets can not be more than $100,000!</Original>
 			<English>Tickets can not be more than $100,000!</English>
 			<German>Strafzettel können nicht mehr als $100.000 betragen!</German>
-			<French>Les amendes ne peuvent pas éxéder $100,000!</French>
+			<French>Les amendes ne peuvent pas éxéder 1,000,000$!</French>
 			<Italian>La multa non può essere più di €100.000!</Italian>
 			<Portuguese>A multa não pode ser maior que R$100.000!</Portuguese>
 		</Key>
@@ -2401,7 +2402,7 @@
 			<Original>%1 gave a ticket of $%2 to %3</Original>
 			<English>%1 gave a ticket of $%2 to %3</English>
 			<German>%1 hat %3 einen Strafzettel über $%2 ausgestellt</German>
-			<French>%1 a mis une contravention de $%2 à %3</French>
+			<French>%1 a mis une contravention de %2$ à %3</French>
 			<Italian>%1 ha dato una multa di €%2 a %3</Italian>
 			<Portuguese>%1 deu uma multa de R$%2 para %3</Portuguese>
 		</Key>	
@@ -2425,7 +2426,7 @@
 			<Original>You have paid the ticket of $%1</Original>
 			<English>You have paid the ticket of $%1</English>
 			<German>Du hast den Strafzettel von $%1 bezahlt</German>
-			<French>Vous avez payé l'amende de $%1</French>
+			<French>Vous avez payé l'amende de %1$</French>
 			<Italian>Hai pagato la multa di €%1</Italian>
 			<Portuguese>VOcê pagou a multa de R$%1</Portuguese>
 		</Key>
@@ -2433,7 +2434,7 @@
 			<Original>%1 paid the ticket of $%2</Original>
 			<English>%1 paid the ticket of $%2</English>
 			<German>%1 zahlte einen Strafzettel von $%2</German>
-			<French>%1 a payé la contravention de $%2</French>
+			<French>%1 a payé la contravention de %2$</French>
 			<Italian>%1 ha pagato la multa di €%2</Italian>
 			<Portuguese>%1 pagou a multa de R$%2</Portuguese>
 		</Key>
@@ -2449,7 +2450,7 @@
 			<Original>%1 has given you a ticket for $%2</Original>
 			<English>%1 has given you a ticket for $%2</English>
 			<German>%1 hat dir einen Strafzettel von $%2 gegeben</German>
-			<French>%1 vous a donné une amende de $%2</French>
+			<French>%1 vous a donné une amende de %2$</French>
 			<Italian>%1 ti ha dato una multa di €%2</Italian>
 			<Portuguese>%1 lhe aplicou uma multa de R$%2</Portuguese>
 		</Key>
@@ -2465,7 +2466,7 @@
 			<Original>You have collected a bounty of $%1 for arresting a criminal.</Original>
 			<English>You have collected a bounty of $%1 for arresting a criminal.</English>
 			<German>Du hast ein Kopfgeld von $%1 für die Festnahme eines Kriminellen bekommen.</German>
-			<French>Vous avez reçu une prime de $%1 pour avoir arrêté un criminel.</French>
+			<French>Vous avez reçu une prime de %1$ pour avoir arrêté un criminel.</French>
 			<Italian>Hai ricevuto il pagamento di una taglia di €%1 per aver arrestato un criminale ricercato.</Italian>
 			<Portuguese>Você conquistou uma recompensa de R$%1 por prender um criminoso.</Portuguese>
 		</Key>
@@ -2473,7 +2474,7 @@
 			<Original>You have collected a bounty of $%1 for killing a wanted criminal, if you had arrested him you would of received $%2</Original>
 			<English>You have collected a bounty of $%1 for killing a wanted criminal, if you had arrested him you would of received $%2</English>
 			<German>Du hast ein Kopfgeld von $%1 für das Töten eines gesuchten Verbrechers erhalten, für eine Festnahme hättest du $%2 bekommen</German>
-			<French>Vous avez reçu une prime de $%1 pour le meurtre d'un criminel recherché, si vous l'aviez arrêté, vous auriez reçu $%2</French>
+			<French>Vous avez reçu une prime de %1$ pour le meurtre d'un criminel recherché, si vous l'aviez arrêté, vous auriez reçu %2$</French>
 			<Italian>Hai ricevuto il pagamento di una taglia di €%1 per aver ucciso un criminale ricercato, se lo avessi arrestato avresti ricevuto €%2</Italian>
 			<Portuguese>Você conquistou uma recompensa de $%1 por matar um criminoso procurado, e se voçê prendeu esse suspeito voçê receberá R$%2</Portuguese>
 		</Key>
@@ -2481,7 +2482,7 @@
 			<Original>%1 has $%2 worth of contraband on them.</Original>
 			<English>%1 has $%2 worth of contraband on them.</English>
 			<German>%1 hat Schmuggelware im Wert von $%2 bei sich.</German>
-			<French>%1 a $%2 de contrebande sur lui.</French>
+			<French>%1 a %2$ de contrebande sur lui.</French>
 			<Italian>%1 ha €%2 in materiali illegali con se.</Italian>
 			<Portuguese>%1 tem R$%1 em contrabando.</Portuguese>
 		</Key>
@@ -2561,7 +2562,7 @@
 			<Original>$%1 from the Federal Reserve robbery was returned from the robber being killed.</Original>
 			<English>$%1 from the Federal Reserve robbery was returned from the robber being killed.</English>
 			<German>$%1 wurden in die Staatsbank zurückgebracht.</German>
-			<French>$%1 du vol de la Réserve fédérale est récupéré du voleur qui vient d'être tué.</French>
+			<French>%1$ du vol de la Réserve fédérale est récupéré du voleur qui vient d'être tué.</French>
 			<Italian>€%1 della rapina alla Riserva Federale sono stati recuperati dal rapinatore ucciso.</Italian>
 			<Portuguese>R$%1 que foi roubado da Reserva Federal foi retornado a ela após a morte do ladrão.</Portuguese>
 		</Key>
@@ -2965,7 +2966,7 @@
 			<Original>This house is available for &lt;t color='#8cff9b'&gt;$%1&lt;/t&gt;&lt;br/&gt;It supports up to %2 storage containers</Original>
 			<English>This house is available for &lt;t color='#8cff9b'&gt;$%1&lt;/t&gt;&lt;br/&gt;It supports up to %2 storage containers</English>
 			<German>Dieses Haus gibt es für &lt;t color='#8cff9b'&gt;$%1&lt;/t&gt;&lt;br/&gt; Es unterstützt %2 Lagerbox(en)</German>
-			<French>Cette maison est disponible pour &lt;t color='#8cff9b'&gt;$%1&lt;/t&gt;&lt;br/&gt; Elle prend en charge jusqu'à %2 conteneurs de stockage</French>
+			<French>Cette maison est disponible pour &lt;t color='#8cff9b'&gt;%1$&lt;/t&gt;&lt;br/&gt; Elle prend en charge jusqu'à %2 conteneurs de stockage</French>
 			<Italian>Questa casa è disponibile per &lt;t color='#8cff9b'&gt;$%1&lt;/t&gt;&lt;br/&gt;Può supportare fino a %2 contenitori</Italian>
 			<Portuguese>Essa casa está disponível por &lt;t color='#8cff9b'&gt;R$%1&lt;/t&gt;&lt;br/&gt;Ela suporta até %2 caixa(s)</Portuguese>
 		</Key>
@@ -3053,7 +3054,7 @@
 			<Original>A house was raided and had $%1 worth of drugs / contraband.</Original>
 			<English>A house was raided and had $%1 worth of drugs / contraband.</English>
 			<German>Ein Haus wurde durchsucht und es wurden Drogen / Schmuggelware im Wert von $% gefunden.</German>
-			<French>Une maison a été perquisitionné et a $%1 de drogue / contrebande.</French>
+			<French>Une maison a été perquisitionné et a %1$ de drogue / contrebande.</French>
 			<Italian>Una casa è stata perquisita e sono stati trovati €%1 in materiali illegali.</Italian>
 			<Portuguese>A casa assaltada tem R$%1 em drogas ou contrabandos.</Portuguese>
 		</Key>
@@ -3101,7 +3102,7 @@
 			<Original>Are you sure you want to sell your house? It will sell for: &lt;t color='#8cff9b'&gt;$%1&lt;/t&gt;</Original>
 			<English>Are you sure you want to sell your house? It will sell for: &lt;t color='#8cff9b'&gt;$%1&lt;/t&gt;.</English>
 			<German>Bist Du sicher, dass du dein Haus verkaufen möchtest? Es wird für &lt;t color='#8cff9b'&gt;$%1&lt;/t&gt; verkauft</German>
-			<French>Etes-vous sûr de vouloir vendre votre maison? Elle se vendra pour: &lt;t color='#8cff9b'&gt;$%1&lt;/t&gt;</French>
+			<French>Etes-vous sûr de vouloir vendre votre maison? Elle se vendra pour: &lt;t color='#8cff9b'&gt;%1$&lt;/t&gt;</French>
 			<Italian>Sei sicuro di voler vendere la tua casa? La venderai per: &lt;t color='#8cff9b'&gt;€1&lt;/t&gt;</Italian>
 			<Portuguese>Você tem certeza que deseja vender a casa? O valor de venda é: &lt;t color='#8cff9b'&gt;R$%1&lt;/t&gt;</Portuguese>
 		</Key>
@@ -3111,7 +3112,7 @@
 			<Original>There isn't a chopper on the helipad!</Original>
 			<English>There isn't a chopper on the helipad!</English>
 			<German>Es ist kein Helikopter auf dem Landeplatz </German>
-			<French>Il n'y a pas d'hélicopter sur l'héliport</French>
+			<French>Il n'y a pas d'hélicoptère sur l'héliport</French>
 			<Italian>Non c'è alcun elicottero sulla piazzola d'atterraggio</Italian>
 			<Portuguese>Não existe uma aeronave no heliponto!</Portuguese>
 		</Key>
@@ -3119,8 +3120,8 @@
 			<Original>You need $1,000 to service your chopper</Original>
 			<English>You need $1,000 to service your chopper</English>
 			<German>Du benötigst $1,000, um deinen Helikopter zu warten</German>
-			<French>Vous devez $1000 pour l'entretien de votre hélico</French>
-			<Italian>Necessiti di €1.000 per fare manutenzione al tuo elicottero</Italian>
+			<French>Vous devez 10,000$ pour l'entretien de votre hélico</French>
+			<Italian>Necessiti di 1,000$ per fare manutenzione al tuo elicottero</Italian>
 			<Portuguese>Você precisa de R$1.000 para reparar a sua aeronave</Portuguese>
 		</Key>
 		<Key ID="STR_Service_Chopper_Servicing">
@@ -3611,7 +3612,7 @@
 			<Original>Pilot License</Original>
 			<English>Pilot License</English>
 			<German>Pilotenschein</German>
-			<French>License de Pilote</French>
+			<French>Brevet de Pilote</French>
 			<Italian>Licenza da Pilota</Italian>
 			<Portuguese>Licença de Piloto</Portuguese>
 		</Key>
@@ -3667,7 +3668,7 @@
 			<Original>Rebel Training</Original>
 			<English>Rebel Training</English>
 			<German>Rebellenausbildung</German>
-			<French>Entrainement rebelle</French>
+			<French>Entrainement Rebelle</French>
 			<Italian>Licenza da Ribelle</Italian>
 			<Portuguese>Treinamento Rebelde</Portuguese>
 		</Key>
@@ -3683,7 +3684,7 @@
 			<Original>Diamond Processing</Original>
 			<English>Diamond Processing</English>
 			<German>Diamantenverarbeitung</German>
-			<French>Taillage des Diamants</French>
+			<French>Tailleur de Diamant</French>
 			<Italian>Processo Diamanti</Italian>
 			<Portuguese>Lapidação de Diamante</Portuguese>
 		</Key>
@@ -3691,7 +3692,7 @@
 			<Original>Copper Processing</Original>
 			<English>Copper Processing</English>
 			<German>Kupferverarbeitung</German>
-			<French>Fonte du Cuivre</French>
+			<French>Fondeur de Cuivre</French>
 			<Italian>Processo Rame</Italian>
 			<Portuguese>Processamento de Bronze</Portuguese>
 		</Key>
@@ -3699,7 +3700,7 @@
 			<Original>Iron Processing</Original>
 			<English>Iron Processing</English>
 			<German>Eisenverarbeitung</German>
-			<French>Fonte du Fer</French>
+			<French>Fondeur de Fer</French>
 			<Italian>Processo Ferro</Italian>
 			<Portuguese>Processamento de Ferro</Portuguese>
 		</Key>
@@ -3729,7 +3730,7 @@
 		</Key>
 		<Key ID="STR_License_JusRaisin">
 			<Original>Home Owners License</Original>
-			<French>Producteur de jus de Raisin</French>
+			<French>Producteur de Jus de Raisin</French>
 		</Key>
 		<Key ID="STR_License_Poterie">
 			<Original>Home Owners License</Original>
@@ -3737,11 +3738,11 @@
 		</Key>
 		<Key ID="STR_License_HuileOlive">
 			<Original>Home Owners License</Original>
-			<French>Producteur d'huile d'olive</French>
+			<French>Producteur d'Huile d'Olive</French>
 		</Key>
 		<Key ID="STR_License_Cigarette">
 			<Original>Home Owners License</Original>
-			<French>Fabricant de cigarette</French>
+			<French>Fabricant de Cigarette</French>
 		</Key>
 		<Key ID="STR_License_Biere">
 			<Original>Home Owners License</Original>
@@ -3753,7 +3754,7 @@
 		</Key>
 		<Key ID="STR_License_Cigare">
 			<Original>Home Owners License</Original>
-			<French>Producteur de cigare</French>
+			<French>Producteur de Cigare</French>
 		</Key>
 		<Key ID="STR_License_Champagne">
 			<Original>Home Owners License</Original>
@@ -3769,11 +3770,11 @@
 		</Key>
 		<Key ID="STR_License_BarreOr">
 			<Original>Home Owners License</Original>
-			<French>Fonte de l'or</French>
+			<French>Fonte de l'Or</French>
 		</Key>
 		<Key ID="STR_License_Mescaline">
 			<Original>Home Owners License</Original>
-			<French>Production de mescaline</French>
+			<French>Producteur de Mescaline</French>
 		</Key>
 		<Key ID="STR_License_MDMA">
 			<Original>Home Owners License</Original>
@@ -3793,11 +3794,11 @@
 		</Key>
 		<Key ID="STR_License_Acier">
 			<Original>Home Owners License</Original>
-			<French>Fonte de l'Acier</French>
+			<French>Fondeur d'Acier</French>
 		</Key>
 		<Key ID="STR_License_AcierIno">
 			<Original>Home Owners License</Original>
-			<French>Fonte de l'Acier Inoxydable</French>
+			<French>Fondeur d'Acier Inoxydable</French>
 		</Key>
 	</Package>
 	<Package name="More_Item_Strings">
@@ -4255,7 +4256,7 @@
 			<Original>Medics Online: %1</Original>
 			<English>Medics Online: %1</English>
 			<German>Sanitäter online: %1</German>
-			<French>Medics en ligne: %1</French>
+			<French>EMS en ligne: %1</French>
 			<Italian>Medici Online: %1</Italian>
 			<Portuguese>Médicos Online: %1</Portuguese>
 		</Key>
@@ -4263,7 +4264,7 @@
 			<Original>Medics Nearby: %1</Original>
 			<English>Medics Nearby: %1</English>
 			<German>Sanitäter in der Nähe: %1</German>
-			<French>Medics à proximité: %1</French>
+			<French>EMS à proximité: %1</French>
 			<Italian>Medici Vicini: %1</Italian>
 			<Portuguese>Médicos por perto: %1</Portuguese>
 		</Key>
@@ -4279,7 +4280,7 @@
 			<Original>Respawn Available in: %1</Original>
 			<English>Respawn Available in: %1</English>
 			<German>Respawn verfügbar in: %1</German>
-			<French>Respawn Disponible dans: %1</French>
+			<French>Respawn disponible dans: %1</French>
 			<Italian>Respawn disponibile in: $1</Italian>
 			<Portuguese>Respawn Disponível em: %1</Portuguese>
 		</Key>
@@ -4295,7 +4296,7 @@
 			<Original>%1 has revived you and a fee of $%2 was taken from your bank account for their services.</Original>
 			<English>%1 has revived you and a fee of $%2 was taken from your bank account for their services.</English>
 			<German>%1 hat dich wiederbelebt und dafür eine Gebühr von $%2 von deinem Bankkonto eingezogen.</German>
-			<French>%1 vous à réanimé, les fraits de $%2 sont transféré depuit votre compte bancaire pour leurs services.</French>
+			<French>%1 vous à réanimé, les fraits de %2$ sont transféré depuit votre compte bancaire pour leurs services.</French>
 			<Italian>%1 ti ha rianimato e sono stati prelevati €%2 dal tuo conto in banca per pagare la prestazione.</Italian>
 			<Portuguese>%1 reviveu você e uma taxa de R$2% foi cobrada da sua conta bancária para os serviços prestados.</Portuguese>
 		</Key>
@@ -4327,7 +4328,7 @@
 			<Original>You have revived %1 and received $%2 for your services.</Original>
 			<English>You have revived %1 and received $%2 for your services.</English>
 			<German>Du hast %1 wiederbelebt und $%2 für deine Dienste erhalten.</German>
-			<French>Vous avez réanimé %1 vous avez reçu $%2 pour votre aide</French>
+			<French>Vous avez réanimé %1 vous avez reçu %2$ pour votre aide</French>
 			<Italian>Hai rianimato %1 e hai ricevuto €%2 per la tua prestazione.</Italian>
 			<Portuguese>Você reviveu %1 e recebeu R$%2 de seus serviços prestados.</Portuguese>
 		</Key>
@@ -4353,7 +4354,7 @@
 			<Original>$%1 was stolen from the robbery on the federal reserve</Original>
 			<English>$%1 was stolen from the robbery on the federal reserve</English>
 			<German>$%1 wurden von den Räubern aus der Zentralbank gestohlen</German>
-			<French>$%1 a été volé à la réserve fédérale.</French>
+			<French>%1$ a été volé à la réserve fédérale.</French>
 			<Italian>€%1 sono stati rubati durante la rapina alla banca</Italian>
 			<Portuguese>R$%1 foi roubado da Reserva Federal.</Portuguese>
 		</Key>
@@ -4404,7 +4405,7 @@
 			<English>Automatically reveals nearest objects within 15m, turn this setting off if you are experiencing performance issues.</English>
 			<German>Zeigt automatisch nächstgelegene Objekte innerhalb von 15m an, deaktiviere es, wenn du Leistungprobleme hast.</German>
 			<French>Révèle automatiquement les objets les plus proches au sein de 15m, désactiver ce paramètre si vous rencontrez des problèmes de performance.</French>
-				<Italian>Rivela automaticamente gli oggettivi vicini entro 15m, disattiva quest'impostazione se riscontri dei problemi di perfomance di sistema.</Italian>
+			<Italian>Rivela automaticamente gli oggettivi vicini entro 15m, disattiva quest'impostazione se riscontri dei problemi di perfomance di sistema.</Italian>
 			<Portuguese>Revela objetos a 15m, desligue essa opção se está tendo problemas de performance.</Portuguese>
 		</Key>
 		<Key ID="STR_GUI_PlayTags">
@@ -4419,7 +4420,7 @@
 			<Original>Shop Stock</Original>
 			<English>Shop Stock</English>
 			<German>Lagerbestand</German>
-			<French>Shop Stock</French>
+			<French>Stock Magasin</French>
 			<Italian>Stock Negozio</Italian>
 			<Portuguese>Estoque</Portuguese>
 		</Key>
@@ -4647,7 +4648,7 @@
 			<Original>Get In Kart</Original>
 			<English>Get In Kart</English>
 			<German>Ins Kart setzen</German>
-			<French>Monter dans le kart</French>
+			<French>Monter dans kart</French>
 			<Italian>Entra nel Kart</Italian>
 			<Portuguese>Entrar no Kart</Portuguese>
 		</Key>
@@ -4687,7 +4688,7 @@
 			<Original>Pullout Players</Original>
 			<English>Pullout Players</English>
 			<German>Aus Fahrzeug ziehen</German>
-			<French>Sortir Personnes</French>
+			<French>Sortir Personne</French>
 			<Italian>Estrai Giocatore</Italian>
 			<Portuguese>Retirar Jogadores</Portuguese>
 		</Key>
@@ -4867,7 +4868,7 @@
 			<Original>You need a Diving license to use this shop!</Original>
 			<English>You need a Diving license to use this shop!</English>
 			<German>Du benötigst eine Taucherlizenz, um diesen Tauchershop nutzen zu können!</German>
-			<French>Vous devez avoir votre diplome de plongée pour utiliser ce magasin!</French>
+			<French>Vous devez avoir votre diplôme de plongée pour utiliser ce magasin!</French>
 			<Italian>Ti serve la licenza di pesca per usare questo negozio!</Italian>
 			<Portuguese>Você precisa de uma Licença de Mergulho para usar essa loja!</Portuguese>
 		</Key>

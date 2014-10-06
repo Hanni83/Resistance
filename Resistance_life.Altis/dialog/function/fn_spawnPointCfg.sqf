@@ -54,6 +54,17 @@ switch (_side) do
 							["ta_spawn","TransAltis","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
 							];
 					};
+                
+                    if(license_civ_cantailla && playerSide == civilian) then {
+					_return = [
+							["reb_spawn_1","A.P. Rebelle 1","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
+							["reb_spawn_2","A.P. Rebelle 2","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
+							["reb_spawn_3","A.P. Rebelle 3","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
+							["civ_spawn_2","Pyrgos","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
+							["civ_spawn_4","Sofia","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
+							["spawn_cantailla","Cantailla","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
+							];
+					};
                     
                     if(__GETC__(life_donator) > 0) then {
 					_return = _return + [

@@ -55,6 +55,9 @@ switch (_mode) do
 			case "acier": {_var = "license_civ_acier"};
 			case "acierino": {_var = "license_civ_acierino"};
 			case "transaltis": {_var = "licese_civ_transaltis"};
+            case "don": {_var = "licese_civ_don"};
+            case "merc": {_var = "licese_civ_merc"};
+            case "cant": {_var = "licese_civ_cantailla"};
 			default {_var = ""};
 		};
 	};
@@ -102,6 +105,9 @@ switch (_mode) do
 			case "license_civ_acier": {_var = "acier"};
 			case "license_civ_acierino": {_var = "acierino"};
 			case "license_civ_transaltis": {_var = "transaltis"};
+            case "license_civ_don": {_var = "don"};
+            case "license_civ_merc": {_var = "merc"};
+            case "license_civ_cantailla": {_var = "cant"};
 			default {_var = ""};
 		};
 	};

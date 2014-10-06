@@ -17,6 +17,8 @@ if(_veh == "RDS_Lada_Civ_01") exitWith {true}; //ATV's don't need to require a l
 
 switch (life_veh_shop select 0) do
 {
+    case "car_merc": {_ret = license_civ_merc;};
+    case "hel_merc": {_ret = license_civ_merc;};
 	case "ta_car": {_ret = license_civ_transaltis;};
 	case "ta_truck": {_ret = license_civ_transaltis;};
 	case "ta_hel": {_ret = license_civ_transaltis;};

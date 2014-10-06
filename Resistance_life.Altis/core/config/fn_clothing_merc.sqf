@@ -1,9 +1,10 @@
 /*
-	File: fn_clothing_dive.sqf
+	File: fn_clothing_merc.sqf
 	Author: Bryan "Tonic" Boardwine
+	Edited by Jack Frost
 	
 	Description:
-	Master configuration file for Altis Diving Shop.
+	Master configuration file for Altis mercenary Shop.
 */
 private["_filter"];
 _filter = [_this,0,0,[0]] call BIS_fnc_param;
@@ -51,7 +52,8 @@ switch (_filter) do
 			["G_Combat",nil,255],
 			["SFG_Tac_smallBeardD",nil,2500],
 			["SFG_Tac_moustacheD",nil,2500],
-			["SFG_Tac_ChopsD",nil,2500]
+			["SFG_Tac_ChopsD",nil,2500],
+            ["SFG_Tac_BeardD",nil,2500]
 		];
 	};
 	

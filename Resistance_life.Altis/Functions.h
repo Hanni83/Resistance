@@ -170,6 +170,9 @@ class Life_Client_Core
 		class clothing_reb {};
 		class clothing_dive {};
 		class clothing_kart {};
+        class clothing_don {};
+        class clothing_ta {};
+        class clothing_merc {};
 		
 		class updateClothing {};
 	};
@@ -250,6 +253,8 @@ class Life_Client_Core
 		class fatigueReset {};
 		class BipBipCamion {};
 		class emptyFuel {};
+        //marché
+        class randomRound {};
 	};
 	
 	class Network
@@ -332,6 +337,7 @@ class Life_Client_Core
 		class seizeObjects {};
 		class seizePlayerWeapon {};
 		class seizePlayerWeaponAction {};
+        class gpsTracker {};
 	};
 	
 	class Gangs
@@ -428,4 +434,22 @@ class Life_Client_Core
 		class calldialog {};
 		class sendChannel {};
 	};
+    
+        class Market
+    {
+    file = "core\market";
+        class openMarketView;
+        class refreshMarketView;
+        class marketShortView;
+        class marketBuy;
+        class marketSell;
+        class marketGetBuyPrice;
+        class marketGetSellPrice;
+        class marketconfiguration;
+        class marketReset;
+        class marketChange;
+        class marketGetRow;
+        class marketGetPriceRow;
+        class marketSetPriceRow;
+    };
 };

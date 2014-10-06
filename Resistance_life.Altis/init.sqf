@@ -14,6 +14,22 @@ life_versionInfo = "Altis Life RPG v3.1.4.5";
 [] execVM "KRON_Strings.sqf";
 [] execVM "statusBar.sqf";
 [] execVM "zlt_fastrope.sqf";
+//marché
+    if(isDedicated && isNil("life_market_prices")) then
+    {
+    [] call life_fnc_marketconfiguration;
+    diag_log "Les prix du marché ont été généré !";
+     
+    "life_market_prices" addPublicVariableEventHandler
+    {
+    diag_log format["Prix du marché mis à jour ! %1", _this select 1];
+    };
+     
+    //Start server fsm
+    [] execFSM "core\fsm\server.fsm";
+    diag_log "Serveur FSM exécuté";
+    };
+//fin
 
 BipBipOn=true;
 publicVariable "BipBipOn";

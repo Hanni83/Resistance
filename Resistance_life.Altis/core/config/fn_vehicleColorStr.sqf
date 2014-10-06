@@ -26,6 +26,7 @@ switch (_vehicle) do
 			case 7: {_color = "Noir"};
 			case 8: {_color = "Jaune"};
 			case 9: {_color = "Medecin"};
+            case 10: {_color = "Monster"};
 		};
 	};
 	
@@ -133,6 +134,30 @@ switch (_vehicle) do
 			case 12: {_color = "Vague Bleue"};
 			case 13: {_color = "Rebelle Digitale"};
 			case 14: {_color = "Medecin"};
+            case 15: {_color = "Merco"};
+		};
+	};
+    
+    case "B_Heli_Light_01_armed_F":
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "Police"};
+			case 1: {_color = "Noir"};
+			case 2: {_color = "Civ Bleu"};
+			case 3: {_color = "Civ Rouge"};
+			case 4: {_color = "Digi Vert"};
+			case 5: {_color = "Blueline"};
+			case 6: {_color = "Elliptical"};
+			case 7: {_color = "Furious"};
+			case 8: {_color = "Jeans Blue"};
+			case 9: {_color = "Speedy Redline"};
+			case 10: {_color = "Sunset"};
+			case 11: {_color = "Vrana"};
+			case 12: {_color = "Vague Bleue"};
+			case 13: {_color = "Rebelle Digitale"};
+			case 14: {_color = "Medecin"};
+            case 15: {_color = "Merco"};
 		};
 	};
 	
@@ -148,8 +173,21 @@ switch (_vehicle) do
 			case 5: {_color = "Police"};
 		};
 	};
+    
+    case "O_Heli_Light_02_F":
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "Noir"};
+			case 1: {_color = "Blanc / Bleu"};
+			case 2: {_color = "Digi Green"};
+			case 3: {_color = "Desert Digi"};
+			case 4: {_color = "Medecin"};
+			case 5: {_color = "Police"};
+		};
+	};
 	
-	case "O_Heli_Light_02_unarmed_F":
+	case "O_Heli_Light_03_unarmed_F":
 	{
 		switch (_index) do
 		{
@@ -163,6 +201,7 @@ switch (_vehicle) do
 		{
 			case 0: {_color = "Noir"};
 			case 1: {_color = "Police"};
+            case 2: {_color = "Police 2"};
 		};
 	};
 	
@@ -172,6 +211,27 @@ switch (_vehicle) do
 		{
 			case 0: {_color = "Noir"};
 			case 1: {_color = "Police"};
+            case 2: {_color = "Police 2"};
+		};
+	};
+    
+    case "I_MRAP_03_F":
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "Police"};
+		};
+	};
+    
+    case "O_MRAP_02_F":
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "Noir"};
+            case 1: {_color = "Noir2"};
+            case 2: {_color = "Camouflage"};
+            case 3: {_color = "Bleu"};
+            case 4: {_color = "Rouge"};
 		};
 	};
 	
@@ -181,6 +241,9 @@ switch (_vehicle) do
 		{
 			case 0: {_color = "Orange"};
 			case 1: {_color = "Noir"};
+            case 2: {_color = "Rouge"};
+            case 3: {_color = "Bleu"};
+            case 4: {_color = "Jaune"};
 		};
 	};
 	
@@ -190,6 +253,9 @@ switch (_vehicle) do
 		{
 			case 0: {_color = "Orange"};
 			case 1: {_color = "Noir"};
+            case 2: {_color = "Rouge"};
+            case 3: {_color = "Bleu"};
+            case 4: {_color = "Jaune"};
 		};
 	};
 	
