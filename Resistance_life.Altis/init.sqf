@@ -28,6 +28,7 @@ life_versionInfo = "Altis Life RPG v3.1.4.5";
     //Start server fsm
     [] execFSM "core\fsm\server.fsm";
     diag_log "Serveur FSM exécuté";
+    //test
     };
 //fin
 
