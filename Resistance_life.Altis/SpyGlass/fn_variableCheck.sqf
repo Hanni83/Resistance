@@ -23,17 +23,19 @@ _badVariables = ["JxMxE_hide","JME_Keybinds","JME_has_yet_to_fuck_this_shit","JM
 	"TTTT_IIII___TTTTTTT_REPGAs","jaimepaslepoisin_HLEAL","Root_Main4","Root_Pistol4","Root_Rifle4","Root_Machinegun4","Root_Sniper4","Root_Launcher4","Root_Attachement4"
 ];
 
-if(!(call SPY_cfg_runVarCheck)) exitWith {}; //Variable check is disabled so exit.
 _checkThread = {
 	{
-		_var = missionNamespace getVariable _x;
-		if(!isNil "_var") then {
-			missionNamespace setVariable[_x,nil];
-			[[profileName,getPlayerUID player,_x],"SPY_fnc_cookieJar",false,false] spawn life_fnc_MP;
-			[[profileName,format["Variable: %1",_x]],"SPY_fnc_notifyAdmins",true,false] spawn life_fnc_MP;
-			sleep 0.5;
-			["SpyGlass",false,false] call BIS_fnc_endMission;
-		};
+		_key = _x;
+		{
+			_var = _x getVariable _key;
+			if(!isNil "_var") exitWith {
+				_x setVariable[_key,nil];
+				[[profileName,getPlayerUID player,_key],"SPY_fnc_cookieJar",false,false] spawn life_fnc_MP;
+				[[profileName,format["Variable: %1",_key]],"SPY_fnc_notifyAdmins",true,false] spawn life_fnc_MP;
+				sleep 0.5;
+				["SpyGlass",false,false] call BIS_fnc_endMission;
+			};
+		} forEach [missionNamespace, uiNamespace, profileNamespace, parsingNamespace];
 	} foreach _this;
 };
 

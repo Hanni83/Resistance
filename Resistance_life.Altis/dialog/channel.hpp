@@ -61,7 +61,7 @@ class controls {
 		class Channel7Description : Life_RscStructuredText
 		{
 			idc = -1;
-			text = "Ce message sera envoyé à tous le monde sur le serveur. Faites attention à ce que vous écrivez!";
+			text = "Ce message sera envoyÃ© Ã  tous le monde sur le serveur. Faites attention Ã  ce que vous Ã©crivez!";
 			x = 0.12;
             y = 0.5;
 			w = 0.5;

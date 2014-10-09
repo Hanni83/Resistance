@@ -313,7 +313,7 @@ life_market_resources = [
 		] 
 	],
     
-    ["speedball", 24000, 0, 27000, 4, 4,   
+    ["speedball", 24000, 0, 25500, 4, 4,   
 		[ 
 			["marijuana",1], 
 			["cocainep",1],

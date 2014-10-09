@@ -118,7 +118,6 @@ class Life_Client_Core
 		class gather {};
 		class packUpBarricade {};
 		class packUpBarrier {};
-		class packUpCone {};
 		class surrender {};
 		class robShops {};
 		class copShowLicense{};
@@ -249,9 +248,7 @@ class Life_Client_Core
 		class saveGear {};
 		class loadGear {};
 		class stripDownPlayer {};
-		class autoSave {};
 		class fatigueReset {};
-		class BipBipCamion {};
 		class emptyFuel {};
         //marché
         class randomRound {};

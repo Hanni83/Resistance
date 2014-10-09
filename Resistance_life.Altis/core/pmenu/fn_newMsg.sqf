@@ -34,7 +34,8 @@ switch(_type) do
 		if(isNUll life_smartphoneTarget) exitWith {hint format["Aucune personne sélectionnée."];};
 		ctrlShow[88885, false];
 		if(_msg == "") exitWith {hint "Vous devez saisir un message à envoyer!";ctrlShow[88885, true];};
-		[[life_smartphoneTarget,_msg,player,0],"GHB_fnc_handleMessages",false] spawn life_fnc_MP;
+		//[[life_smartphoneTarget,_msg,player,0],"GHB_fnc_handleMessages",false] spawn life_fnc_MP;
+        [[life_smartphoneTarget,_msg,player,0],"TON_fnc_handleMessages",false] spawn life_fnc_MP;
 		hint format["Vous envoyez un message à %1 : %2",name life_smartphoneTarget,_msg];	
 		ctrlShow[88885, true];
 		closeDialog 88883;
@@ -45,7 +46,8 @@ switch(_type) do
 		if(({side _x == west} count playableUnits) == 0) exitWith {hint format["La police n'est actuellement pas accessible. S'il vous plait réessayer plus tard."];};
 		ctrlShow[888895,false];
 		if(_msg == "") exitWith {hint "Vous devez saisir un message à envoyer!";ctrlShow[888895,true];};
-		[[ObjNull,_msg,player,1],"GHB_fnc_handleMessages",false] spawn life_fnc_MP;
+		//[[ObjNull,_msg,player,1],"GHB_fnc_handleMessages",false] spawn life_fnc_MP;
+        [[ObjNull,_msg,player,1],"TON_fnc_handleMessages",false] spawn life_fnc_MP;
 		_to = "La Police";
 		hint format["Vous envoyez un message a %1 : %2",_to,_msg];
 		ctrlShow[888895,true];
@@ -56,7 +58,8 @@ switch(_type) do
 	{
 		ctrlShow[888896,false];
 		if(_msg == "") exitWith {hint "Vous devez saisir un message à envoyer!";ctrlShow[888896,true];};
-		[[ObjNull,_msg,player,2],"GHB_fnc_handleMessages",false] spawn life_fnc_MP;
+		//[[ObjNull,_msg,player,2],"GHB_fnc_handleMessages",false] spawn life_fnc_MP;
+        [[ObjNull,_msg,player,2],"TON_fnc_handleMessages",false] spawn life_fnc_MP;
 		_to = "Les Admins";
 		hint format["Vous envoyez un message a %1 : %2",_to,_msg];
 		ctrlShow[888896,true];
@@ -68,7 +71,8 @@ switch(_type) do
 		if(({side _x == independent} count playableUnits) == 0) exitWith {hint format["Actuellement, il n'y a pas de médecin de garde. S'il vous plait essayer de nouveau plus tard."];};
 		ctrlShow[888899,false];
 		if(_msg == "") exitWith {hint "Vous devez saisir un message à envoyer!";ctrlShow[888899,true];};
-		[[ObjNull,_msg,player,3],"GHB_fnc_handleMessages",false] spawn life_fnc_MP;
+		//[[ObjNull,_msg,player,3],"GHB_fnc_handleMessages",false] spawn life_fnc_MP;
+        [[ObjNull,_msg,player,3],"TON_fnc_handleMessages",false] spawn life_fnc_MP;
 		hint format["Vous avez envoyé un message à tout les médecins.",_msg];
 		ctrlShow[888899,true];
 		closeDialog 887890;
@@ -79,7 +83,8 @@ switch(_type) do
 		if((call life_adminlevel) < 1) exitWith {hint "Vous n'êtes pas Admin!";};
 		if(isNULL life_smartphoneTarget) exitWith {hint format["Aucune personne sélectionnée."];};
 		if(_msg == "") exitWith {hint "Vous devez saisir un message à envoyer!";};
-		[[life_smartphoneTarget,_msg,player,4],"GHB_fnc_handleMessages",false] spawn life_fnc_MP;
+		//[[life_smartphoneTarget,_msg,player,4],"GHB_fnc_handleMessages",false] spawn life_fnc_MP;
+        [[life_smartphoneTarget,_msg,player,4],"TON_fnc_handleMessages",false] spawn life_fnc_MP;
 		hint format["Message admin envoyé à: %1 - Message: %2",name life_smartphoneTarget,_msg];
 		closeDialog 88883;
 	};
@@ -100,7 +105,8 @@ switch(_type) do
 	{
 		if((call life_adminlevel) < 1) exitWith {hint "Vous n'êtes pas Admin!";};
 		if(_msg == "") exitWith {hint "Vous devez saisir un message à envoyer!";};
-		[[ObjNull,_msg,player,5],"GHB_fnc_handleMessages",false] spawn life_fnc_MP;
+		//[[ObjNull,_msg,player,5],"GHB_fnc_handleMessages",false] spawn life_fnc_MP;
+        [[ObjNull,_msg,player,5],"TON_fnc_handleMessages",false] spawn life_fnc_MP;
 		hint format["Message Admin pour tous: %1",_msg];
 		closeDialog 887890;
 	};

@@ -7,7 +7,7 @@ respawndelay = 5;
 disabledAI = true;
 disableChannels[]={0,1,2};
 enableDebugConsole = 1;
-LoadScreen="textures\resistance.jpg";
+LoadScreen="textures\resistance.paa";
 respawnDialog = 0;
 
 class Header
@@ -109,13 +109,6 @@ class CfgSounds
         
     };
 	
-	class bipbip_camion
-	{
-		name = "bipbip_camion";
-		sound[] = {"sounds\bipbip.ogg", 1.0, 1};
-		titles[] = {};
-	};
-	
 	class alert
 	{
 		name = "alert";
@@ -153,6 +146,13 @@ class CfgSounds
 	{
 		name = "car_alarm";
 		sound[] = {"sounds\car_alarm.ogg", 1.0, 1};
+		titles[] = {};
+	};
+	
+	class ambulance
+	{
+		name = "ambulance";
+		sound[] = {"sounds\ambulance.ogg", 1.0, 1};
 		titles[] = {};
 	};
 	

@@ -113,7 +113,6 @@ life_fnc_garageRefund = compileFinal
 
 __CONST__(life_paycheck,life_paycheck); //Make the paycheck static.
 
-[] spawn life_fnc_autoSave;
 [] spawn life_fnc_fatigueReset;
 [] spawn
 {

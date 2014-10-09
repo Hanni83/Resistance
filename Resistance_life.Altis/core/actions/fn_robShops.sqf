@@ -173,3 +173,6 @@ if(_rip) then
 sleep 1200;
 _action = _shop addAction["Voler la caisse",life_fnc_robShops];	
 _shop switchMove "";
+
+_rscLayer = "statusBar" call BIS_fnc_rscLayer;
+_rscLayer cutRsc["statusBar","PLAIN"];

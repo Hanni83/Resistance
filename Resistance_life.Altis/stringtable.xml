@@ -4872,6 +4872,18 @@
 			<Italian>Ti serve la licenza di pesca per usare questo negozio!</Italian>
 			<Portuguese>Você precisa de uma Licença de Mergulho para usar essa loja!</Portuguese>
 		</Key>
+        <Key ID="STR_Shop_NotaTa">
+			<French>Vous devez faire partis de la sociètè TransAltis pour utiliser ce magasin!</French>
+		</Key>
+        <Key ID="STR_Shop_NotaMed">
+			<French>Vous devez être Médecin pour utiliser ce magasin!</French>
+		</Key>
+        <Key ID="STR_Shop_NotaMerc">
+			<French>Vous devez être Mercenaire pour utiliser ce magasin!</French>
+		</Key>
+        <Key ID="STR_Shop_NotaDon">
+			<French>Vous devez être Donateur pour utiliser ce magasin!</French>
+		</Key>
 		<Key ID="STR_Shop_YouNeed">
 			<Original>You need a %1 to buy from this shop!</Original>
 			<English>You need a %1 to buy from this shop!</English>

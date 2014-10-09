@@ -32,6 +32,11 @@ switch (typeOf _vehicle) do
 	case "O_Heli_Light_02_unarmed_F":{_lightleft lightAttachObject [_vehicle, [0.37, 0.0, 0.56]];};
 	case "I_Heli_light_03_unarmed_F":{_lightleft lightAttachObject [_vehicle, [0.37, 0.0, 0.56]];};
 	case "I_MRAP_03_F":{_lightleft lightAttachObject [_vehicle, [0.37, 0.0, 0.56]];};
+    case "cl3_q7_clpd_etu":{_lightleft lightAttachObject [_vehicle, [0.37, 0.0, 0.56]];};
+    case "cl3_q7_clpd_patrol":{_lightleft lightAttachObject [_vehicle, [0.37, 0.0, 0.56]];};
+    case "cl3_dodge_charger_k9":{_lightleft lightAttachObject [_vehicle, [0.37, 0.0, 0.56]];};
+    case "cl3_reventon_clpd":{_lightleft lightAttachObject [_vehicle, [0.37, 0.0, 0.56]];};
+    case "cl3_dodge_charger_patrol":{_lightleft lightAttachObject [_vehicle, [0.37, 0.0, 0.56]];};
 };
 
 _lightleft setLightAttenuation [0.181, 0, 1000, 130]; 
@@ -59,6 +64,11 @@ switch (typeOf _vehicle) do
 	case "O_Heli_Light_02_unarmed_F":{_lightright lightAttachObject [_vehicle, [-0.37, 0.0, 0.56]];};
 	case "I_Heli_light_03_unarmed_F":{_lightright lightAttachObject [_vehicle, [-0.37, 0.0, 0.56]];};
 	case "I_MRAP_03_F":{_lightright lightAttachObject [_vehicle, [-0.37, 0.0, 0.56]];};
+    case "cl3_q7_clpd_etu":{_lightleft lightAttachObject [_vehicle, [-0.37, 0.0, 0.56]];};
+    case "cl3_q7_clpd_patrol":{_lightleft lightAttachObject [_vehicle, [-0.37, 0.0, 0.56]];};
+    case "cl3_dodge_charger_k9":{_lightleft lightAttachObject [_vehicle, [-0.37, 0.0, 0.56]];};
+    case "cl3_reventon_clpd":{_lightleft lightAttachObject [_vehicle, [-0.37, 0.0, 0.56]];};
+    case "cl3_dodge_charger_patrol":{_lightleft lightAttachObject [_vehicle, [-0.37, 0.0, 0.56]];};
 };
   
 _lightright setLightAttenuation [0.181, 0, 1000, 130]; 

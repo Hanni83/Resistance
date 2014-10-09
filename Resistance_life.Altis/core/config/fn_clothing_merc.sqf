@@ -29,7 +29,7 @@ switch (_filter) do
 	{
 		[
 			["JaKdo_boonie_oliv",nil,1000],
-			["aKdo_Wollhaubeoliv",nil,1000]
+			["JaKdo_Wollhaubeoliv",nil,1000]
 		];
 	};
 	

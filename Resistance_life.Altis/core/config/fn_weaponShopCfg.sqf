@@ -722,7 +722,7 @@ switch(_shop) do
 					[
 						["hgun_mas_uzi_F",nil,40000],
 						["30Rnd_mas_9x21_Stanag",nil,250],
-						["hgun_Pistol_heavy_02_",nil,10000],
+						["hgun_Pistol_heavy_02",nil,10000],
 						["6Rnd_45ACP_Cylinder",nil,250],
                         ["RH_tec9",nil,40000],
                         ["RH_32Rnd_9x19_tec",nil,150],
@@ -858,80 +858,4 @@ switch(_shop) do
 			};
 		};
 	};
-    /*
-    case "don":
-	{
-		switch(true) do
-		{
-			case (playerSide != civilian): {"Vous n'êtes pas Civil!"};
-			case (__GETC__(life_donator) == 0): {"Vous n'êtes pas un donateur inscrit sur la liste!"};
-			case (__GETC__(life_donator) == 1):
-			{
-				["Armes Donateur 1",
-					[
-						["RH_uspm",nil,10000],
-						["RH_16Rnd_40cal_usp",nil,50],
-                        ["RH_matchsd",nil,1000],
-                        ["RH_python",nil,10000],
-                        ["RH_6Rnd_357_Mag",nil,100],
-                        ["Trixie_Enfield_Rail",nil,450000],
-                        ["Trixie_Enfield_Mag",nil,5000]
-					]
-				];
-			};
-			case (__GETC__(life_coplevel) == 2):
-			{
-				["Armes Donateur 2",
-					[
-                        ["RH_uspm",nil,10000],
-						["RH_16Rnd_40cal_usp",nil,50],
-                        ["RH_matchsd",nil,1000],
-                        ["RH_python",nil,10000],
-                        ["RH_6Rnd_357_Mag",nil,100],
-                        ["Trixie_Enfield_Rail",nil,450000],
-                        ["Trixie_Enfield_Mag",nil,5000],
-						["RH_Deagles",nil,50000],
-						["RH_7Rnd_50_AE",nil,2000],
-						["RH_ttracker",nil,10000],
-						["RH_6Rnd_45ACP_Mag",nil,2000],
-						["Trixie_CZ550_Rail",nil,450000],
-						["Trixie_CZ550_Mag",nil,5000],
-                        ["optic_mas_aim",nil,2000]
-					]
-				];
-			};
-			case (__GETC__(life_coplevel) == 3):
-			{
-				["Armes Donateur 3",
-					[
-                        ["RH_uspm",nil,10000],
-						["RH_16Rnd_40cal_usp",nil,50],
-                        ["RH_matchsd",nil,1000],
-                        ["RH_python",nil,10000],
-                        ["RH_6Rnd_357_Mag",nil,100],
-                        ["Trixie_Enfield_Rail",nil,450000],
-                        ["Trixie_Enfield_Mag",nil,5000],
-						["RH_Deagles",nil,50000],
-						["RH_7Rnd_50_AE",nil,2000],
-						["RH_ttracker",nil,10000],
-						["RH_6Rnd_45ACP_Mag",nil,2000],
-						["Trixie_CZ550_Rail",nil,450000],
-						["Trixie_CZ550_Mag",nil,5000],
-                        ["optic_mas_aim",nil,2000],
-						["RH_Deagleg",nil,50000],
-						["RH_7Rnd_50_AE",nil,2000],
-						["srifle_mas_m24",nil,400000],
-						["5Rnd_mas_762x51_Stanag",nil,5000],
-						["arifle_mas_mk16_l",nil,140000],
-                        ["30Rnd_556x45_Stanag_Tracer_Red",nil,500],
-						["RH_ttracker_g",nil,10000],
-						["RH_6Rnd_45ACP_Mag",nil,2000],
-						["optic_mas_acog_rd",nil,10000],
-						["Trixie_LSMARK4",nil,100000]
-					]
-				];
-			};
-		};
-	};
-*/
 };

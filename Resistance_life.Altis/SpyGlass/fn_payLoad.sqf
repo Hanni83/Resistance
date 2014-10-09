@@ -9,6 +9,7 @@
 private["_binConfigPatches","_cfgPatches"];
 #define __CONST__(var1,var2) var1 = compileFinal (if(typeName var2 == "STRING") then {var2} else {str(var2)})
 #define __GETC__(var) (call var)
+if(__GETC__(life_adminlevel) != 0) exitWith {};
 
 //First null out some very harmful known functions.
 __CONST__(W_O_O_K_I_E_ANTI_ANTI_HAX,"No");
@@ -24,8 +25,6 @@ __CONST__(JJJJ_MMMM___EEEEEEE_LLYYSSTTIICCC_SHIT_RE,"No");
 __CONST__(JJJJ_MMMM___EEEEEEE_LLYYSSTTIICCC_SHIT_RE_OLD,"No");
 __CONST__(JJJJ_MMMM___EEEEEEE_SPAWN_VEH,"No");
 __CONST__(JJJJ_MMMM___EEEEEEE_SPAWN_WEAPON,"No");
-if(!(__GETC__(SPY_cfg_enableSys))) exitWith {}; //Don't waste anymore time since it was disabled.
-if(__GETC__(life_adminlevel) != 0) exitWith {}; //Don't run this for admins?
 
 //Make sure all functions were offloaded to the client..
 waitUntil {!isNil "SPY_fnc_menuCheck" && !isNil "SPY_fnc_variablecheck" && !isNil "SPY_fnc_cmdMenuCheck"};
@@ -89,9 +88,8 @@ if(_onUnload != "[""onUnload"",_this,""RscDisplayInventory"",'IGUI'] call compil
 [] spawn SPY_fnc_variableCheck;
 
 //Create a no-recoil hack check.
-//Reminder to Tonic, dafuq?
-/*
 [] spawn {
+	waitUntil {(!isNil "life_fnc_moveIn")};
 	while {true} do {
 		if((unitRecoilCoefficient player) < 1) then {
 			[[profileName,getPlayerUID player,"No_recoil_hack"],"SPY_fnc_cookieJar",false,false] spawn life_fnc_MP;
@@ -101,19 +99,4 @@ if(_onUnload != "[""onUnload"",_this,""RscDisplayInventory"",'IGUI'] call compil
 		};
 		sleep 1.5;
 	};
-};
-*/
-
-//Create a no-recoil hack check.
-[] spawn {
-waitUntil {(!isNil "life_fnc_moveIn")};
-while {true} do {
-if((unitRecoilCoefficient player) < 1) then {
-[[profileName,getPlayerUID player,"No_recoil_hack"],"SPY_fnc_cookieJar",false,false] spawn life_fnc_MP;
-[[profileName,"No recoil hack"],"SPY_fnc_notifyAdmins",true,false] spawn life_fnc_MP;
-sleep 0.5;
-["SpyGlass",false,false] call BIS_fnc_endMission;
-};
-sleep 1.5;
-};
 };

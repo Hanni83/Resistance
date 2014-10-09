@@ -20,6 +20,6 @@ player assignItem "ItemMap";
 player addItem "ItemRadio";
 player assignItem "ItemRadio";
 
-[[player,0,"\Resistance\Skins\cloth_med\medic_uniform.jpg"],"life_fnc_setTexture",true,false] spawn life_fnc_MP;
+[[player,0,"\Resistance\Skins\cloth_med\medic_uniform.paa"],"life_fnc_setTexture",true,false] spawn life_fnc_MP;
 
 [] call life_fnc_saveGear;

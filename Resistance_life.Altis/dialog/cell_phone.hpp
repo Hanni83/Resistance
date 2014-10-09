@@ -85,7 +85,7 @@ class Life_cell_phone {
 			idc = 3016;
 			text = "$STR_CELL_TextPolice";
 			colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", 0.5};
-			onButtonClick = "[] TON_call fnc_cell_textcop";
+			onButtonClick = "[] call TON_fnc_cell_textcop";
 			
 			x = 0.32;
 			y = 0.35;

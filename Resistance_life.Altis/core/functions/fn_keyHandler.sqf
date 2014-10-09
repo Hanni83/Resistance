@@ -5,7 +5,7 @@
 	Description:
 	Main key handler for event 'keyDown'
 */
-private ["_handled","_shift","_alt","_code","_ctrl","_alt","_ctrlKey","_veh","_locked","_interactionKey","_mapKey","_interruptionKeys","_Automobile","_VitesseX","_player"];
+private ["_handled","_shift","_alt","_code","_ctrl","_alt","_ctrlKey","_veh","_locked","_interactionKey","_mapKey","_interruptionKeys","_player"];
 _ctrl = _this select 0;
 _code = _this select 1;
 _shift = _this select 2;
@@ -194,27 +194,12 @@ else { hint "Cette personne n'a pas de téléphone!"};
 			};
 		};
 	};
-	
-	//Touche [S] BipBip camion by Jennova
-	case 31:
-	{
-		if ((BipBipOn) and (vehicle player != player && (typeOf vehicle player) in ["C_Van_01_transport_F"])) then {
-			_Automobile = [vehicle player,0] call BIS_fnc_param;
-			_VitesseX = speed _Automobile;
-			
-			if (_VitesseX < 0) then {
-				BipBipOn = false;
-				publicVariable "BipBipOn";
-				[[_Automobile,1],"life_fnc_BipBipCamion"] call life_fnc_MP;
-			};
-		};
-	};
 
 	//L Key?
 	case 38: 
 	{
 		if(_shift) then {
-			if(vehicle player != player && (typeOf vehicle player) in ["C_Offroad_01_F","B_MRAP_01_F","C_SUV_01_F","C_Hatchback_01_sport_F","C_Hatchback_01_F","B_Heli_Light_01_F","B_Heli_Transport_01_F","I_Heli_light_03_unarmed_F","I_MRAP_03_F","B_Heli_Transport_01_F","O_Heli_Light_02_unarmed_F"]) then {
+			if(vehicle player != player && (typeOf vehicle player) in ["cl3_q7_clpd_etu","cl3_q7_clpd_patrol","cl3_dodge_charger_k9","cl3_reventon_clpd","cl3_dodge_charger_patrol","C_Offroad_01_F","B_MRAP_01_F","C_SUV_01_F","C_Hatchback_01_sport_F","C_Hatchback_01_F","B_Heli_Light_01_F","B_Heli_Transport_01_F","I_Heli_light_03_unarmed_F","I_MRAP_03_F","B_Heli_Transport_01_F","O_Heli_Light_02_unarmed_F"]) then {
 				if(!isNil {vehicle player getVariable "lights"}) then {
 					if(playerSide == west) then {
 						[vehicle player] call life_fnc_sirenLights;

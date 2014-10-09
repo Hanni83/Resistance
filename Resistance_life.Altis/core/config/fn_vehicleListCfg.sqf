@@ -19,15 +19,13 @@ switch (_shop) do
 			_return pushBack
 			["I_Truck_02_transport_F",150000];
 			_return pushBack
-			["O_Truck_03_transport_F",150000];
+			["O_Truck_03_transport_F",750000];
 			_return pushBack
-			["O_MRAP_02_F",150000];
+			["O_MRAP_02_F",750000];
 			_return pushBack
-			["DAR_MK27",150000];
+			["DAR_MK27",400000];
 			_return pushBack
 			["DAR_4X4",150000];
-			_return pushBack
-			["RDS_Ikarus_Civ_01",150000];
 		};
 	};
     
@@ -334,7 +332,7 @@ switch (_shop) do
 			_return pushBack ["cl3_civic_vti_black",50000];
 			_return pushBack ["cl3_civic_vti_dark_green",50000];
             _return pushBack ["cl3_insignia_black",150000];
-            _return pushBack ["cl3_insignia_lime",50000];
+            _return pushBack ["cl3_insignia_lime",150000];
 		};
 		if(__GETC__(life_donator) == 2) then
 		{
@@ -343,7 +341,7 @@ switch (_shop) do
 			_return pushBack ["cl3_civic_vti_black",50000];
 			_return pushBack ["cl3_civic_vti_dark_green",50000];
             _return pushBack ["cl3_insignia_black",150000];
-            _return pushBack ["cl3_insignia_lime",50000];
+            _return pushBack ["cl3_insignia_lime",150000];
 			_return pushBack ["cl3_e60_m5_dark_green",200000];
 			_return pushBack ["cl3_e60_m5_navy_blue",200000];
 			_return pushBack ["cl3_dbs_volante_black",600000];
@@ -357,6 +355,8 @@ switch (_shop) do
 			_return pushBack ["cl3_range_rover_burgundy",200000];
 			_return pushBack ["cl3_civic_vti_black",50000];
 			_return pushBack ["cl3_civic_vti_dark_green",50000];
+            _return pushBack ["cl3_insignia_black",150000];
+            _return pushBack ["cl3_insignia_lime",150000];
 			_return pushBack ["cl3_e60_m5_dark_green",200000];
 			_return pushBack ["cl3_e60_m5_navy_blue",200000];
 			_return pushBack ["cl3_dbs_volante_black",600000];
