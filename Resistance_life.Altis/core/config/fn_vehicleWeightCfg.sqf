@@ -179,7 +179,7 @@ switch (_className) do
 	case "DAR_MK23AD": {75};
 	case "DAR_MK23ADT": {75};
 	case "DAR_MK27": {500};
-	case "DAR_MK27T": {700};
+	case "DAR_MK27T": {650};
 	case "DAR_4x4": {150};
 	case "DAR_LHS_8": {75};
 	case "DAR_LHS_16": {75};
