@@ -9,7 +9,6 @@ private["_container","_unit"];
 if(count _this == 1) exitWith {false};
 _unit = _this select 0;
 _container = _this select 1;
-if (side player == west) exitwith {};
 
 _isPack = getNumber(configFile >> "CfgVehicles" >> (typeOf _container) >> "isBackpack");
 if(_isPack == 1 && playerSide != west) then {
