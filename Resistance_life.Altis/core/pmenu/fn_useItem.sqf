@@ -21,22 +21,26 @@ switch (true) do
 		};
 	};
 	
-	case (_item == "boltcutter"): {
+	case (_item == "boltcutter"): 
+    {
 		[cursorTarget] spawn life_fnc_boltcutter;
 		closeDialog 0;
 	};
 	
-	case (_item == "blastingcharge"): {
+	case (_item == "blastingcharge"): 
+    {
 		player reveal fed_bank;
 		(group player) reveal fed_bank;
 		[cursorTarget] spawn life_fnc_blastingCharge;
 	};
 	
-	case (_item == "defusekit"): {
+	case (_item == "defusekit"): 
+    {
 		[cursorTarget] spawn life_fnc_defuseKit;
 	};
 	
-	case (_item in ["storagesmall","storagebig"]): {
+	case (_item in ["storagesmall","storagebig"]): 
+    {
 		[_item] call life_fnc_storageBox;
 	};
 	
@@ -204,7 +208,8 @@ switch (true) do
 		};
 	};
     
-    case (_item == "gpstracker"): {
+    case (_item == "gpstracker"): 
+    {
 		[cursorTarget] spawn life_fnc_gpsTracker;
 	};
 	

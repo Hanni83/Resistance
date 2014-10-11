@@ -3,7 +3,7 @@
 	Author: alleskapot & Lifted
 	Thanks again for all the help alleskapot!
 	Description:
-	Ermöglicht senden bzw. die Abfrage des Geschriebenen.
+	ErmÃ©glicht senden bzw. die Abfrage des Geschriebenen.
 
 */
 
@@ -13,7 +13,7 @@ disableSerialization;
 waitUntil {!isnull (findDisplay 9000)};
 
 if ( life_cash < 250000 ) exitWith { systemChat "Vous devez payer 250 000$ pour un message!"; }; // Hint if person haves no 6000 dollar
-if ( playerSide != civilian ) exitWith { systemChat "Vous devez être un civil pour envoyer un message!"; }; // Hint if not civilian
+if ( playerSide != civilian ) exitWith { systemChat "Vous devez Ãªtre un civil pour envoyer un message!"; }; // Hint if not civilian
 if !( life_channel_send ) exitWith { systemChat "Vous devez attendre 10 minutes avant d'envoyer un autre message."; }; //Gives Player the Hint to Wait 10 mins
 life_cash = life_cash - 250000;
 

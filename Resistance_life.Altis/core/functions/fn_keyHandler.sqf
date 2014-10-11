@@ -361,6 +361,14 @@ case 75:
 			player playMove "AmovPercMstpSnonWnonDnon_exercisePushup";
 		};
 };
+    
+     // O police gate opener
+ case 24:
+ {
+ if (!_shift && !_alt && !_ctrlKey && (playerSide == west) && (vehicle player != player)) then {
+ [] call life_fnc_copOpener;
+ };
+ };
 	
 	// ANTI ALT + F4
 	 case 62:

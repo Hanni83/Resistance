@@ -1,6 +1,6 @@
 /*File: fn_drinkbeer.sqf author:[midgetgrimm] drinkypoo*/
 closeDialog 0;
-hintSilent parseText format["Your BAC is now<br/> <t size='1.4'><t color='#FF0000'>%1</t></t>",[life_drink] call life_fnc_numberText];
+hintSilent parseText format["Votre taux d'alcolémie est de<br/> <t size='1.4'><t color='#FF0000'>%1</t></t>",[life_drink] call life_fnc_numberText];
 sleep 4;
 "chromAbberation" ppEffectEnable true;
 "radialBlur" ppEffectEnable true;
@@ -53,5 +53,5 @@ sleep 6;
 //"chromAberration" ppEffectEnable false;
 //"radialBlur" ppEffectEnable false;
 resetCamShake;
-_ui = "osefStatusBar" call BIS_fnc_rscLayer;_ui cutRsc["osefStatusBar","PLAIN"];
+_ui = "statusBar" call BIS_fnc_rscLayer;_ui cutRsc["statusBar","PLAIN"];
 if(life_drink != 0) then {life_drink = life_drink - 0.02;};

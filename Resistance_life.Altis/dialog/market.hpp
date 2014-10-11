@@ -72,7 +72,7 @@ class marketView
 		class RscStructuredText_1101: RscStructuredText
 		{
 			idc = 1101;
-			text = "<t align='center'>développement</t>"; //--- ToDo: Localize;
+			text = "<t align='center'>Développement</t>"; //--- ToDo: Localize;
 			x = 17 * GUI_GRID_W + GUI_GRID_X;
 			y = 9 * GUI_GRID_H + GUI_GRID_Y;
 			w = 17 * GUI_GRID_W;
@@ -110,7 +110,7 @@ class marketView
 		class RscText_1003: RscText
 		{
 			idc = 1003;
-			text = "récemment"; //--- ToDo: Localize;
+			text = "Récemment"; //--- ToDo: Localize;
 			x = 20.5 * GUI_GRID_W + GUI_GRID_X;
 			y = 13.5 * GUI_GRID_H + GUI_GRID_Y;
 			w = 13 * GUI_GRID_W;

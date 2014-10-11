@@ -1,6 +1,6 @@
 /*File: fn_drinkwhiskey.sqf author:[midgetgrimm] drinkypoo*/
 closeDialog 0;
-hintSilent parseText format["Your BAC is now<br/> <t size='1.4'><t color='#FF0000'>%1</t></t>",[life_drink] call life_fnc_numberText];
+hintSilent parseText format["Votre taux d'alcolémie est de<br/> <t size='1.4'><t color='#FF0000'>%1</t></t>",[life_drink] call life_fnc_numberText];
 sleep 4;
 "chromAbberation" ppEffectEnable true;
 "radialBlur" ppEffectEnable true;

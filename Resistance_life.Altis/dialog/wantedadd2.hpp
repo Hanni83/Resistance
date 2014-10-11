@@ -31,7 +31,7 @@ class life_wantedadd2 {
 		class Title : Life_RscTitle {
 			colorBackground[] = {0, 0, 0, 0};
 			idc = 2901;
-			text = "Wanted add";
+			text = "Ajouter Crime";
 			x = 0.1;
 			y = 0.2;
 			w = 0.7;

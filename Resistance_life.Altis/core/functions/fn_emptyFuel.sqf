@@ -24,13 +24,13 @@ while{true} do
 
 		if(fuel _vehicleToFuel < 0.2 && fuel _vehicleToFuel > 0.18) then
 		{
-			hint "Votre réservoir d'essence est vide. Dépêchez-vous d'aller a la prochaine station essence!";
+			hint "Votre rÃ©servoir d'essence est vide. DÃ©pÃªchez-vous d'aller a la prochaine station essence!";
 		}
 		else
 		{
 			if(fuel _vehicleToFuel < 0.03) then
 			{
-				hint "I hope you can run - because you just ran out of gas!";
+				hint "Vous Ãªtes a sec...";
 			};
 		};
 	};

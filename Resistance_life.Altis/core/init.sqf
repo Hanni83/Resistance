@@ -64,12 +64,6 @@ switch (playerSide) do
 		_handle = [] spawn life_fnc_initMedic;
 		waitUntil {scriptDone _handle};
 	};
-	
-	//case sideLogic:
-    //{
-        //_handle = [] spawn life_fnc_initZeus;
-        //waitUntil {scriptDone _handle};
-    //};
 };
 
 player setVariable["restrained",false,true];
@@ -114,8 +108,3 @@ life_fnc_garageRefund = compileFinal
 __CONST__(life_paycheck,life_paycheck); //Make the paycheck static.
 
 [] spawn life_fnc_fatigueReset;
-[] spawn
-{
-	sleep 60;
-	[] call life_fnc_updateClothing;
-};

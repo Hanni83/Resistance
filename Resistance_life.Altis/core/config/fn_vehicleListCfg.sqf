@@ -396,6 +396,301 @@ switch (_shop) do
 		};
 	};
 	
+    case "cop_car_civil":
+	{
+		if(__GETC__(life_coplevel) == 1) then
+		{
+			_return pushBack
+			["RDS_Lada_Civ_01",1500];
+            _return pushBack
+			["RDS_Lada_Civ_02",1500];
+            _return pushBack
+			["RDS_Lada_Civ_03",1500];
+            _return pushBack
+			["RDS_Lada_Civ_04",1500];
+            _return pushBack
+			["RDS_Lada_Civ_05",1500];
+            _return pushBack
+			["RDS_Gaz24_Civ_01",4500];
+            _return pushBack
+			["RDS_Gaz24_Civ_02",4500];
+            _return pushBack
+			["RDS_Gaz24_Civ_03",4500];
+		};
+		if(__GETC__(life_coplevel) == 2) then
+		{
+			_return pushBack
+			["RDS_Lada_Civ_01",1500];
+            _return pushBack
+			["RDS_Lada_Civ_02",1500];
+            _return pushBack
+			["RDS_Lada_Civ_03",1500];
+            _return pushBack
+			["RDS_Lada_Civ_04",1500];
+            _return pushBack
+			["RDS_Lada_Civ_05",1500];
+            _return pushBack
+			["RDS_Gaz24_Civ_01",4500];
+            _return pushBack
+			["RDS_Gaz24_Civ_02",4500];
+            _return pushBack
+			["RDS_Gaz24_Civ_03",4500];
+            _return pushBack
+            ["RDS_Octavia_Civ_01",6500];
+		};
+		if(__GETC__(life_coplevel) == 3) then
+		{
+			_return pushBack
+			["RDS_Lada_Civ_01",1500];
+            _return pushBack
+			["RDS_Lada_Civ_02",1500];
+            _return pushBack
+			["RDS_Lada_Civ_03",1500];
+            _return pushBack
+			["RDS_Lada_Civ_04",1500];
+            _return pushBack
+			["RDS_Lada_Civ_05",1500];
+            _return pushBack
+			["RDS_Gaz24_Civ_01",4500];
+            _return pushBack
+			["RDS_Gaz24_Civ_02",4500];
+            _return pushBack
+			["RDS_Gaz24_Civ_03",4500];
+            _return pushBack
+            ["RDS_Octavia_Civ_01",6500];
+            _return pushBack
+			["RDS_Golf4_Civ_01",17000];
+		};
+		if(__GETC__(life_coplevel) == 4) then
+		{
+			_return pushBack
+			["RDS_Lada_Civ_01",1500];
+            _return pushBack
+			["RDS_Lada_Civ_02",1500];
+            _return pushBack
+			["RDS_Lada_Civ_03",1500];
+            _return pushBack
+			["RDS_Lada_Civ_04",1500];
+            _return pushBack
+			["RDS_Lada_Civ_05",1500];
+            _return pushBack
+			["RDS_Gaz24_Civ_01",4500];
+            _return pushBack
+			["RDS_Gaz24_Civ_02",4500];
+            _return pushBack
+			["RDS_Gaz24_Civ_03",4500];
+            _return pushBack
+            ["RDS_Octavia_Civ_01",6500];
+            _return pushBack
+			["RDS_Golf4_Civ_01",17000];
+            _return pushBack
+			["DAR_ImpalaCiv",40000];
+            _return pushBack
+			["DAR_ImpalaCivA",40000];
+            _return pushBack
+			["DAR_ImpalaCivC",40000];
+            _return pushBack
+			["DAR_ImpalaCivD",40000];
+            
+		};
+		if(__GETC__(life_coplevel) == 5) then
+		{
+			_return pushBack
+			["RDS_Lada_Civ_01",1500];
+            _return pushBack
+			["RDS_Lada_Civ_02",1500];
+            _return pushBack
+			["RDS_Lada_Civ_03",1500];
+            _return pushBack
+			["RDS_Lada_Civ_04",1500];
+            _return pushBack
+			["RDS_Lada_Civ_05",1500];
+            _return pushBack
+			["RDS_Gaz24_Civ_01",4500];
+            _return pushBack
+			["RDS_Gaz24_Civ_02",4500];
+            _return pushBack
+			["RDS_Gaz24_Civ_03",4500];
+            _return pushBack
+            ["RDS_Octavia_Civ_01",6500];
+            _return pushBack
+			["RDS_Golf4_Civ_01",17000];
+            _return pushBack
+			["DAR_ImpalaCiv",40000];
+            _return pushBack
+			["DAR_ImpalaCivA",40000];
+            _return pushBack
+			["DAR_ImpalaCivC",40000];
+            _return pushBack
+			["DAR_ImpalaCivD",40000];
+            _return pushBack
+			["DAR_FusionCiv",40000];
+            _return pushBack
+			["DAR_FusionCivBlack",40000];
+		};
+		if(__GETC__(life_coplevel) == 6) then
+		{
+			_return pushBack
+			["RDS_Lada_Civ_01",1500];
+            _return pushBack
+			["RDS_Lada_Civ_02",1500];
+            _return pushBack
+			["RDS_Lada_Civ_03",1500];
+            _return pushBack
+			["RDS_Lada_Civ_04",1500];
+            _return pushBack
+			["RDS_Lada_Civ_05",1500];
+            _return pushBack
+			["RDS_Gaz24_Civ_01",4500];
+            _return pushBack
+			["RDS_Gaz24_Civ_02",4500];
+            _return pushBack
+			["RDS_Gaz24_Civ_03",4500];
+            _return pushBack
+            ["RDS_Octavia_Civ_01",6500];
+            _return pushBack
+			["RDS_Golf4_Civ_01",17000];
+            _return pushBack
+			["DAR_ImpalaCiv",40000];
+            _return pushBack
+			["DAR_ImpalaCivA",40000];
+            _return pushBack
+			["DAR_ImpalaCivC",40000];
+            _return pushBack
+			["DAR_ImpalaCivD",40000];
+            _return pushBack
+			["DAR_FusionCiv",40000];
+            _return pushBack
+			["DAR_FusionCivBlack",40000];
+            _return pushBack
+			["DAR_TaurusCiv",40000];
+            _return pushBack
+			["DAR_TaurusCivBlack",40000];
+		};
+		if(__GETC__(life_coplevel) == 7) then
+		{
+			_return pushBack
+			["RDS_Lada_Civ_01",1500];
+            _return pushBack
+			["RDS_Lada_Civ_02",1500];
+            _return pushBack
+			["RDS_Lada_Civ_03",1500];
+            _return pushBack
+			["RDS_Lada_Civ_04",1500];
+            _return pushBack
+			["RDS_Lada_Civ_05",1500];
+            _return pushBack
+			["RDS_Gaz24_Civ_01",4500];
+            _return pushBack
+			["RDS_Gaz24_Civ_02",4500];
+            _return pushBack
+			["RDS_Gaz24_Civ_03",4500];
+            _return pushBack
+            ["RDS_Octavia_Civ_01",6500];
+            _return pushBack
+			["RDS_Golf4_Civ_01",17000];
+            _return pushBack
+			["DAR_ImpalaCiv",40000];
+            _return pushBack
+			["DAR_ImpalaCivA",40000];
+            _return pushBack
+			["DAR_ImpalaCivC",40000];
+            _return pushBack
+			["DAR_ImpalaCivD",40000];
+            _return pushBack
+			["DAR_FusionCiv",40000];
+            _return pushBack
+			["DAR_FusionCivBlack",40000];
+            _return pushBack
+			["DAR_TaurusCiv",40000];
+            _return pushBack
+			["DAR_TaurusCivBlack",40000];
+            _return pushBack
+			["DAR_TahoeCiv",55000];
+            _return pushBack
+			["DAR_TahoeCivRed",55000];
+            _return pushBack
+			["DAR_TahoeCivSilver",30000];
+            _return pushBack
+			["DAR_TahoeCivBlack",30000];
+            _return pushBack
+			["SAL_IROCCiv",37000];
+            _return pushBack
+			["SAL_IROCCivBlack",37000];
+		};
+		if(__GETC__(life_coplevel) == 8) then
+		{
+			_return pushBack
+			["RDS_Lada_Civ_01",1500];
+            _return pushBack
+			["RDS_Lada_Civ_02",1500];
+            _return pushBack
+			["RDS_Lada_Civ_03",1500];
+            _return pushBack
+			["RDS_Lada_Civ_04",1500];
+            _return pushBack
+			["RDS_Lada_Civ_05",1500];
+            _return pushBack
+			["RDS_Gaz24_Civ_01",4500];
+            _return pushBack
+			["RDS_Gaz24_Civ_02",4500];
+            _return pushBack
+			["RDS_Gaz24_Civ_03",4500];
+            _return pushBack
+            ["RDS_Octavia_Civ_01",6500];
+            _return pushBack
+			["RDS_Golf4_Civ_01",17000];
+            _return pushBack
+			["DAR_ImpalaCiv",40000];
+            _return pushBack
+			["DAR_ImpalaCivA",40000];
+            _return pushBack
+			["DAR_ImpalaCivC",40000];
+            _return pushBack
+			["DAR_ImpalaCivD",40000];
+            _return pushBack
+			["DAR_FusionCiv",40000];
+            _return pushBack
+			["DAR_FusionCivBlack",40000];
+            _return pushBack
+			["DAR_TaurusCiv",40000];
+            _return pushBack
+			["DAR_TaurusCivBlack",40000];
+            _return pushBack
+			["DAR_TahoeCiv",55000];
+            _return pushBack
+			["DAR_TahoeCivRed",55000];
+            _return pushBack
+			["DAR_TahoeCivSilver",30000];
+            _return pushBack
+			["DAR_TahoeCivBlack",30000];
+            _return pushBack
+			["SAL_IROCCiv",37000];
+            _return pushBack
+			["SAL_IROCCivBlack",37000];
+            _return pushBack
+			["Jonzie_96_Impala",37000];
+            _return pushBack
+			["BAF_Offroad_D",25000];
+            _return pushBack
+			["DAR_ChallengerCivWhite",50000];
+            _return pushBack
+			["DAR_ChallengerCivBlack",50000];
+            _return pushBack
+			["DAR_ChallengerCivOrange",50000];
+            _return pushBack
+			["SAL_AudiCiv",50000];
+            _return pushBack
+			["SAL_AudiCivBlack",50000];
+            _return pushBack
+			["SAL_AudiCivRed",50000];
+            _return pushBack
+			["DAR_ChargerCiv",50000];
+            _return pushBack
+			["DAR_M3CivBlack",50000];
+		};
+	};
+    
 	case "cop_car":
 	{
 		if(__GETC__(life_coplevel) == 1) then

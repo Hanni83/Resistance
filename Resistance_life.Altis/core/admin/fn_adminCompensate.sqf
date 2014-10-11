@@ -11,7 +11,6 @@ if(__GETC__(life_adminlevel) < 2) exitWith {closeDialog 0; hint localize "STR_AN
 _value = parseNumber(ctrlText 9922);
 if(_value < 0) exitWith {};
 if(_value > 9999999) exitWith {hint localize "STR_ANOTF_Fail"};
-//if(!([str(_value)] call life_fnc_isnumeric)) exitWith {hint localize "STR_AIM_notnumeric"};
 
 _action = [
 	format [localize "STR_ANOTF_CompWarn",[_value] call life_fnc_numberText],

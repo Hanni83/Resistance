@@ -42,7 +42,6 @@ class Life_Client_Core
 		class initCiv {};
 		class initCop {};
 		class initMedic {};
-		//class initZeus {};
 		class welcomeNotification {};
 	};
 	
@@ -73,7 +72,6 @@ class Life_Client_Core
 		class revivePlayer {};
 		class revived {};
 		class medicMarkers {};
-		//class teamMarkers {};
 		class requestMedic {};
 		class medicRequest {};
 		class deathScreen {};
@@ -172,8 +170,6 @@ class Life_Client_Core
         class clothing_don {};
         class clothing_ta {};
         class clothing_merc {};
-		
-		class updateClothing {};
 	};
 
 	class Player_Menu
@@ -280,7 +276,6 @@ class Life_Client_Core
 		class robReceive {};
 		class robPerson {};
 		class removeLicenses {};
-		class zoneCreator {};
 		class demoChargeTimer {};
 		class civLoadout {};
 		class CivOrangeLights {};
@@ -335,6 +330,7 @@ class Life_Client_Core
 		class seizePlayerWeapon {};
 		class seizePlayerWeaponAction {};
         class gpsTracker {};
+        class copOpener {};
 	};
 	
 	class Gangs
@@ -432,9 +428,9 @@ class Life_Client_Core
 		class sendChannel {};
 	};
     
-        class Market
+    class Market
     {
-    file = "core\market";
+        file = "core\market";
         class openMarketView;
         class refreshMarketView;
         class marketShortView;

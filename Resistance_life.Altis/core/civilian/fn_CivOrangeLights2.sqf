@@ -17,19 +17,14 @@ _lightleft setLightAmbient [255, 174, 0.1]; //Couleur de la LED en RGB
 
 switch (typeOf _vehicle) do
 {
-	case "C_Offroad_01_F":
+	case "C_Offroad_01_repair_f":
 	{
 		_lightleft lightAttachObject [_vehicle, [-0.37, 0.0, 0.52]];
 	};
 	
-	case "B_MRAP_01_F":
+	case "B_G_Offroad_01_repair_F":
 	{
-		_lightleft lightAttachObject [_vehicle, [-0.50,1.5,-0.68]];
-	};
-	
-	case "C_SUV_01_F":
-	{
-		_lightleft lightAttachObject [_vehicle, [-0.38,2.2,-0.55]];
+		_lightleft lightAttachObject [_vehicle, [-0.37, 0.0, 0.28]];
 	};
 };
 
@@ -47,19 +42,14 @@ _lightright setLightAmbient [255, 174, 0.1]; //Couleur de la LED la c'est en ora
 
 switch (typeOf _vehicle) do
 {
-	case "C_Offroad_01_F":
+	case "C_Offroad_01_repair_f":
 	{
 		_lightright lightAttachObject [_vehicle, [0.37, 0.0, 0.52]];
 	};
 	
-	case "B_MRAP_01_F":
+	case "B_G_Offroad_01_repair_F":
 	{
-		_lightright lightAttachObject [_vehicle, [0.50,1.5,-0.68]];
-	};
-	
-	case "C_SUV_01_F":
-	{
-		_lightright lightAttachObject [_vehicle, [0.38,2.2,-0.55]];
+		_lightright lightAttachObject [_vehicle, [0.37, 0.0, 0.52]];
 	};
 };
   

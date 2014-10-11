@@ -6,7 +6,8 @@
 */
 private["_exitLoop","_group","_wait"];
 if(playerSide != civilian) exitWith {}; //What in the hell?
-[player] join (createGroup civilian);
+//[player] join (createGroup civilian);
+[player] join grpNull;
 if(count life_gangData == 0) exitWith {}; //Dafuq?
 
 _wait = round(random(8));
