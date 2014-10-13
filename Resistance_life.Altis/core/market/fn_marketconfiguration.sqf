@@ -48,7 +48,7 @@ life_market_resources = [
 		] 
 	],
 	
-	["diamondc", 2600, 0, 3000, 4, 2, 
+	["diamondc", 2100, 0, 2500, 4, 2, 
 		[ 
 			["iron_r",1],
 			["copper_r",1],
@@ -120,7 +120,7 @@ life_market_resources = [
 		] 
 	],
 	
-	["cigarette", 1200, 0, 1600, 4, 3,
+	["cigarette", 1300, 0, 1700, 4, 3,
 		[ 
 			["diamondc",1],
 			["iron_r",1],
@@ -156,7 +156,7 @@ life_market_resources = [
 		] 
 	],
     
-    ["acier", 3000, 0, 3500, 4, 3,
+    ["acier", 2700, 0, 3200, 4, 3,
 		[ 
 			["diamondc",1],
 			["iron_r",1],
@@ -174,7 +174,7 @@ life_market_resources = [
 		] 
 	],
     
-    ["acierino", 9000, 0, 11000, 4, 3,
+    ["acierino", 7500, 0, 9500, 4, 3,
 		[ 
 			["diamondc",1],
 			["iron_r",1],
@@ -192,7 +192,7 @@ life_market_resources = [
 		] 
 	],
     
-    ["biere", 1900, 0, 2400, 4, 3,
+    ["biere", 2100, 0, 2600, 4, 3,
 		[ 
 			["diamondc",1],
 			["iron_r",1],
@@ -210,7 +210,7 @@ life_market_resources = [
 		] 
 	],
     
-    ["rubistaille", 2200, 0, 3500, 4, 3,
+    ["rubistaille", 1800, 0, 2200, 4, 3,
 		[ 
 			["diamondc",1],
 			["iron_r",1],
@@ -228,7 +228,7 @@ life_market_resources = [
 		] 
 	],
     
-    ["barreor", 3600, 0, 4000, 4, 3,
+    ["barreor", 2800, 0, 3300, 4, 3,
 		[ 
 			["diamondc",1],
 			["iron_r",1],
